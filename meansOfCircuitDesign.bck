@@ -1,0 +1,640 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 21700_half_N
+D NEG Half of a battery cell
+K 21700 battery cell half
+$ENDCMP
+#
+$CMP 21700_half_P
+D POS Half of a battery cell
+K 21700 battery cell half
+$ENDCMP
+#
+$CMP ADR34xx
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
+$ENDCMP
+#
+$CMP AO3400
+D n-Channel Enhancement Mode MOSFET
+K nmos mosfet ao3400
+F references/datasheets/AO3400.pdf
+$ENDCMP
+#
+$CMP AO3401
+D p-Channel Enhancement Mode MOSFET
+K pmos mosfet ao3401
+F references/datasheets/AO3401.pdf
+$ENDCMP
+#
+$CMP ATA6561
+D High-Speed CAN Transceiver
+K High-Speed CAN Transceiver
+F https://datasheet.octopart.com/ATA6561-GAQW-N-Microchip-datasheet-119327316.pdf
+$ENDCMP
+#
+$CMP BL8028
+F https://datasheet.lcsc.com/szlcsc/Shanghai-Belling-BL8028CB5TR_C266177.pdf
+$ENDCMP
+#
+$CMP BQ25792
+D I²C Controlled,1-4 Cell, 5-A Buck-Boost Battery Charger with Dual-Input Selector and USB PD 3.0 OTG Output
+F https://www.ti.com/lit/ds/symlink/bq25792.pdf
+$ENDCMP
+#
+$CMP BQ76952
+D 3-16S Battery Monitor and Protector for LiIon, LiPo and LiFePo4 packs
+F https://www.ti.com/lit/ds/symlink/bq76952.pdf
+$ENDCMP
+#
+$CMP BSS139
+D Depletion Mode n-Channel MOSFET
+K NMOS n-mos n-mosfet transistor depletion nmos
+F ~
+$ENDCMP
+#
+$CMP CN3765
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3765.pdf
+$ENDCMP
+#
+$CMP COMexpressType6_AB
+D COM Express Type 6 AB connector
+$ENDCMP
+#
+$CMP Conn_02x06_BMS
+D BMS connector v2
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x08_BMS
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DMN22M5UFG
+D 27A Id, 20 Vds, N-Channel Power MOSFET, 2.5mOhm Ron, 53nC Qg (typ), PowerDI3333-8
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMN22M5UFG.pdf
+$ENDCMP
+#
+$CMP DMP2018LFK
+D -12A Id, -20V Vds, 16mOhm Rdson, p-Channel Enhancement Mode MOSFET in U-DFN2523-6 Package
+K P-Channel MOSFET
+F https://www.mouser.at/datasheet/2/115/DMP2018LFK-218502.pdf
+$ENDCMP
+#
+$CMP DRV8350S
+D Three-Phase Smart Gate Driver
+F https://www.ti.com/lit/ds/symlink/drv8350.pdf
+$ENDCMP
+#
+$CMP DRV8353S
+D Three-Phase Smart Gate Driver
+F https://www.ti.com/lit/ds/symlink/drv8353.pdf
+$ENDCMP
+#
+$CMP Diodes_SDT5100LP5_PowerDI5
+D Dual Schottky diode, common cathode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_LL12_43
+D EMI 2-inductor filter
+K EMI filter
+F ~
+$ENDCMP
+#
+$CMP FAN7390
+D High-Current HS/LS Half-Bridge Gate Driver
+K gate drive, hs-ls, half bridge
+F https://datasheet.octopart.com/FAN7390MX-ON-Semiconductor-datasheet-12527004.pdf
+$ENDCMP
+#
+$CMP FeatherWing
+D Adafruit Featherwing standard pinout
+K featherwing feather adafruit huzzah
+$ENDCMP
+#
+$CMP Fully_Automated_Logo
+D Fully Automated Logo
+K fully automated logo
+$ENDCMP
+#
+$CMP INA186AxDDF
+D Bidirectional, Low-Power, Current-Sense Amplifier
+F https://www.ti.com/lit/ds/symlink/ina186.pdf
+$ENDCMP
+#
+$CMP INA190Ax-Q1
+D Automotive, 40-V, High Precision, Low Bias Current, Low Power, Current Sense Amplifier
+K current sense amplifier
+F http://www.ti.com/lit/ds/symlink/ina190-q1.pdf
+$ENDCMP
+#
+$CMP ISL81601FVEZ
+D 60V Bidirectional 4-Switch Synchronous Buck-BoostController
+K 4-switch buck-boost 60V dc/dc
+F https://www.renesas.com/eu/en/doc/datasheet/isl81601.pdf
+$ENDCMP
+#
+$CMP ISO1412
+D 5-kV Isolated RS-485 Transceiver
+F http://www.ti.com/product/ISO1412
+$ENDCMP
+#
+$CMP ItsyBitsy
+D Adafruit ItsyBitsy Board
+K adafruit itsybitsy m0 atsamd21
+F https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all
+$ENDCMP
+#
+$CMP LM3414
+D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 42-V Input
+K lm3414
+F http://www.ti.com/lit/ds/symlink/lm3414hv.pdf
+$ENDCMP
+#
+$CMP LM3414HV
+D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 65-V Input
+F http://www.ti.com/lit/ds/symlink/lm3414hv.pdf
+$ENDCMP
+#
+$CMP LM5114ADBV
+D Single 7.6-A Peak Current Low-Side Gate Driver (SOT-23-6 CMOS level)
+$ENDCMP
+#
+$CMP LM5116
+D Wide Range Synchronous Buck Controller
+K buck controller, synchronous buck
+F http://www.ti.com/lit/gpn/lm5166
+$ENDCMP
+#
+$CMP LM5122
+D 65-V Input Synchronous Boost Controller With Multiple Phase Capability
+K LM5122
+F https://www.ti.com/lit/ds/symlink/lm5122.pdf
+$ENDCMP
+#
+$CMP LM5164
+D 100-V input 1-A synchronous buck
+K dcdc, buck, wide_vin, synchronous, power, step-down
+F http://www.ti.com/lit/ds/symlink/lm5164.pdf
+$ENDCMP
+#
+$CMP LM5166
+D 3-V to 65-V Input, 0.5-A Synchronous Buck Converter With Ultra-Low Iq
+K buck converter, wide vin, iq
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166X
+D 5-V Output, 3-V to 65-V Input, 0.5-A Synchronous Buck Converter With Ultra-Low Iq
+K buck converter, wide vin, iq
+$ENDCMP
+#
+$CMP LM5166Y
+D 3.3-V Output, 3-V to 65-V Input, 0.5-A Synchronous Buck Converter With Ultra-Low Iq
+K buck converter, wide vin, iq
+$ENDCMP
+#
+$CMP LM5170-Q1
+D Multiphase Bidirectional Current Controller
+K bidirectional, current controller, multiphase, dcdc
+F http://www.ti.com/lit/ds/symlink/lm5170-q1.pdf
+$ENDCMP
+#
+$CMP LM74670-Q1
+D Zero Iq Smart Diode Rectifier Controller
+K rectifier smart diode ideal diode lm74670
+F https://www.ti.com/lit/ds/symlink/lm74670-q1.pdf
+$ENDCMP
+#
+$CMP LMP8481-S
+D Precision High Voltage Current Sense Amplifiers, 42V/76V, SOT-23-6
+K current monitor shunt sensor
+F http://www.ti.com/lit/ds/symlink/lmp8640.pdf
+$ENDCMP
+#
+$CMP LMP848x
+D LMP848x Precision 76-V High-Side Current Sense Amplifiers With Voltage Output VSSOP
+K current monitor shunt sensor
+F http://www.ti.com/lit/ds/symlink/lmp8480.pdf
+$ENDCMP
+#
+$CMP LMR33610
+D 3.8-V to 36-V 1-A Synchronous Step-Down Converter
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33610ADDAR
+D 3.8-V to 36-V 1-A Synchronous Step-Down Converter, 400 kHz
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33610BDDAR
+D 3.8-V to 36-V 1-A Synchronous Step-Down Converter, 1.4 MHz
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LT8708
+D 80V Synchronous 4-Switch Buck-Boost DC/DC Controller
+K LT8708, analog, dcdc, 4-switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8708.pdf
+$ENDCMP
+#
+$CMP LTC2946
+D Wide Range I2C Power, Charge and Energy Monitor
+K current sense amplifier power monitor charge counter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/2946fa.pdf
+$ENDCMP
+#
+$CMP LTC6811-1
+D Multicell Battery Monitor
+K bms battery ltc ltc6811 ltc6804
+F ../references/datasheets/ltc6811.pdf
+$ENDCMP
+#
+$CMP LY68L6400
+D 64MBits Serial Pseudo-SRAM with SPI and QPI
+F https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf
+$ENDCMP
+#
+$CMP MCA1101
+D Current Sensor, Fixed Gain Output
+F https://navview.blob.core.windows.net/web-resources/6020-1104-01_B%20Datasheet%2C%20Current%20Sensor%20Fix%20Gain%203.3V_20190627.pdf
+$ENDCMP
+#
+$CMP MCP1726-3302E_MF
+D 3.3-V output 1-A LDO in DFN8 package
+K ldo
+F https://datasheet.octopart.com/MCP1726-ADJE/MF-Microchip-datasheet-6398702.pdf
+$ENDCMP
+#
+$CMP MCP9700
+D ±4℃ accuracy low-power linear active thermistor 10mV/℃
+K thermistor
+F https://www.mouser.at/datasheet/2/268/20001942F-461622.pdf
+$ENDCMP
+#
+$CMP MCP9700A
+D ±2℃ accuracy low-power linear active thermistor
+K thermistor
+F https://www.mouser.at/datasheet/2/268/20001942F-461622.pdf
+$ENDCMP
+#
+$CMP MCP9701
+D ±4℃ accuracy low-power linear active thermistor 19.5mV/℃
+K thermistor
+F https://www.mouser.at/datasheet/2/268/20001942F-461622.pdf
+$ENDCMP
+#
+$CMP MCP9701A
+D ±2℃ accuracy low-power linear active thermistor 19.5mV/℃
+K thermistor
+F https://www.mouser.at/datasheet/2/268/20001942F-461622.pdf
+$ENDCMP
+#
+$CMP MCR1101
+F https://navview.blob.core.windows.net/web-resources/6020-1103-01_B%20Datasheet%2C%20Current%20Sensor%20Ratio%20Metric%203.3V%2020190627.pdf
+$ENDCMP
+#
+$CMP MSP-BOOSTERPACK-40
+D 40-pin MSP Boosterpack Connector, labeled for MSP430FR2355
+K boosterpack, msp, msp430, msp430fr2355
+F http://www.ti.com/lit/ug/slau680/slau680.pdf
+$ENDCMP
+#
+$CMP MSP430FR2355TPT
+D 16-bit Mixed-Signal RISC Microcontroller
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
+$ENDCMP
+#
+$CMP Neg
+D Battery Cell Negative Terminal
+K battery cell terminal welded
+$ENDCMP
+#
+$CMP OPT3001
+D Digital Ambient Light Sensor with Human Eye Characteristics
+K light sensor
+F http://www.ti.com/product/OPT3001
+$ENDCMP
+#
+$CMP Pos
+D Battery Positive Terminal
+K battery 21700 cell
+$ENDCMP
+#
+$CMP SGP30
+D Multipixel MEMS Gas Sensor
+K mems, gas sensor, co2, h2, VOC, co2eq, sensirion
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Gas/Sensirion_Gas_Sensors_SGP30_Datasheet.pdf
+$ENDCMP
+#
+$CMP SHT3x-DIS
+D I2C Humidity and Temperature Sensor
+K humidity, temperature, sensor, sensirion, i2c, sht31, sht3x
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SSM6K514NU
+D n-Channel Enhancement Mode MOSFET
+K nmos mosfet ao3400
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=53150&prodName=SSM6K514NU
+$ENDCMP
+#
+$CMP STLM20DD9F
+D Ultra-low current 2.4 V precision analog temperature sensor
+K thermistor
+F https://www.mouser.at/datasheet/2/389/stlm20-956222.pdf
+$ENDCMP
+#
+$CMP STM32F401RCTx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F4 STM32F401
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf
+$ENDCMP
+#
+$CMP STM32G474xBx
+D ARM Cortex-M4 MCU, 128KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32G4 STM32G474
+F https://eu.mouser.com/datasheet/2/389/stm32g474cb-1600828.pdf
+$ENDCMP
+#
+$CMP SY8502
+D 85-V Input 1.2-A Synchronous Step-Down Regulator
+F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8502FCC_C87752.pdf
+$ENDCMP
+#
+$CMP Si8821EDB
+D P-Channel 30 V (D-S) MOSFET
+K pmos, mosfet, p-ch, trenchfet
+F https://datasheet.octopart.com/SI8821EDB-T2-E1-Vishay-datasheet-20913387.pdf
+$ENDCMP
+#
+$CMP TCAN330G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN4550
+D TCAN4550 CAN FD Controllerwith Integrated Transceiver
+K can transceiver, can fd,
+F https://www.ti.com/lit/ds/symlink/tcan4550.pdf
+$ENDCMP
+#
+$CMP TLV9061DCK
+D 10MHz RRIO 1.8V-5.5V Op-Amp in SC-70 package
+K rrio opamp tlv
+F http://www.ti.com/lit/ds/symlink/tlv9061.pdf
+$ENDCMP
+#
+$CMP TMP23xDBZ
+D Analog temperature sensor, ±1.0C accuracy, -40C to +150C, SOT-23
+K temperature sensor thermistor
+F https://www.ti.com/lit/ds/symlink/tmp236.pdf
+$ENDCMP
+#
+$CMP TMP23xDCK
+D Analog temperature sensor, ±1.0C accuracy, -40C to +150C, SC-70-5
+K temperature sensor thermistor
+F https://www.ti.com/lit/ds/symlink/tmp236.pdf
+$ENDCMP
+#
+$CMP TPD6S300A
+D Single-chip USB Type-C port protection device that provides 20-VShort-to-VBUS overvoltage and IEC ESD protection.
+F https://www.ti.com/lit/ds/symlink/tpd6s300a.pdf
+$ENDCMP
+#
+$CMP TPN1200APL
+D n-Channel Enhancement Mode Power MOSFET 100V 9.8mOhm
+K nmos mosfet toshiba tson
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=59362&prodName=TPN1200APL
+$ENDCMP
+#
+$CMP TPN1600ANH
+D n-Channel Enhancement Mode Power MOSFET 100V 13mOhm
+K nmos mosfet toshiba tson
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=13538&prodName=TPN1600ANH
+$ENDCMP
+#
+$CMP TPN3300ANH
+D n-Channel Enhancement Mode Power MOSFET 100V 28mOhm
+K nmos mosfet toshiba
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=13091&prodName=TPN3300ANH
+$ENDCMP
+#
+$CMP TPS22810DBV
+D 18V, 2A, 79mΩ Load Switch with Adjustable Rise Time, Adj. Quick Output Discharge, & Thermal Shutdown in SOT-23 package
+K load switch pmos
+F http://www.ti.com/lit/gpn/tps22810
+$ENDCMP
+#
+$CMP TPS22810DRV
+D 18V, 3A, 79mΩ Load Switch with Adjustable Rise Time, Adj. Quick Output Discharge, & Thermal Shutdown in WSON-6 pacakage
+K load switch pmos
+F http://www.ti.com/lit/gpn/tps22810
+$ENDCMP
+#
+$CMP TPS22860
+D Ultra-Low Leakage Load Switch
+K load switch
+F http://www.ti.com/lit/ds/symlink/tps22860.pdf
+$ENDCMP
+#
+$CMP TPS560430
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter
+F http://www.ti.com/lit/ds/symlink/tps560430.pdf
+$ENDCMP
+#
+$CMP TPS560430X
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter PFM 1.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS560430X3F
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 1.1-MHz, Fixed 3.3-V Output
+$ENDCMP
+#
+$CMP TPS560430XF
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 1.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS560430Y
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter PFM 2.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS560430YF
+D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 2.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS62135
+D High Accuracy 4-A Step-Down Converter with DCS-Control in VQFN Package
+K dcs, hysteretic, buck, step-down, converter
+F http://www.ti.com/lit/ds/symlink/tps62135.pdf
+$ENDCMP
+#
+$CMP TPS62230
+D 2 MHz Ultra Small Step Down Converter with DCS-Control in 1x1.5 SON Package
+K dcdc, step-down, buck, son, dcs, texas
+F http://www.ti.com/lit/ds/symlink/tps62230.pdf
+$ENDCMP
+#
+$CMP TPS62231
+D 2 MHz Ultra Small Step Down Converter with DCS-Control in 1x1.5 SON Package
+K dcdc, step-down, buck, son, dcs, texas
+F http://www.ti.com/lit/ds/symlink/tps62230.pdf
+$ENDCMP
+#
+$CMP TPS62290
+D Adjustable voltage version
+F http://www.ti.com/lit/gpn/tps62291
+$ENDCMP
+#
+$CMP TPS62291
+D 3.3-V fixed output voltage version
+F http://www.ti.com/lit/gpn/tps62291
+$ENDCMP
+#
+$CMP TPS62293
+D 1.8-V fixed output voltage version
+F http://www.ti.com/lit/gpn/tps62291
+$ENDCMP
+#
+$CMP TPS6229x
+D 2.25-MHz 1-A Step-Down Converter in 2x2 DRV Package
+K step-down, buck, ti
+F http://www.ti.com/lit/gpn/tps62291
+$ENDCMP
+#
+$CMP TPS62560
+D TPS6256x 2.25-MHz, 600-mA Step-Down Converter in TSOT and 2 × 2 × 0.8-mm QFN Package
+F http://www.ti.com/lit/ds/symlink/tps62561.pdf
+$ENDCMP
+#
+$CMP TPS62800
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (4 MHz 0.4V-0.775V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62801
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (4 MHz 0.8V-1.55V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62802
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (4 MHz 1.8V-3.3V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62806
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (1.5 MHz 0.4V-0.775V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62807
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (1.5 MHz 0.8V-1.55V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62808
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA I Q Step Down Converter (1.5 MHz 1.8V-3.3V)
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS6280x
+D 1.8-V to 5.5-V, 0.6A / 1-A, 2.3-μA Iq Step Down Converter in 6-pin 0.35-mm Pitch WCSP Package
+F http://www.ti.com/lit/ds/symlink/tps62808.pdf
+$ENDCMP
+#
+$CMP TPS62821DLC
+D 5.5-V in, 1-A out, Step-Down Converter with 1% Accuracy
+F http://www.ti.com/lit/ds/symlink/tps62821.pdf
+$ENDCMP
+#
+$CMP TPS62822DLC
+D 5.5-V in, 2-A out, Step-Down Converter with 1% Accuracy
+F http://www.ti.com/lit/ds/symlink/tps62821.pdf
+$ENDCMP
+#
+$CMP TPS62823DLC
+D 5.5-V in, 3-A out, Step-Down Converter with 1% Accuracy
+F http://www.ti.com/lit/ds/symlink/tps62821.pdf
+$ENDCMP
+#
+$CMP TPS65987D
+D USB Type-C and USB PD Controller with Integrated Power Switches.
+F https://www.ti.com/lit/ds/symlink/tps65987d.pdf
+$ENDCMP
+#
+$CMP TPS70633DBVx
+D 150-mA 6.5-V in LDO with Enable 3.3-V Output
+$ENDCMP
+#
+$CMP TPS706xxDBVx
+D 150-mA 6.5-V LDO with Enable
+$ENDCMP
+#
+$CMP TPS709DRV
+D 150-mA,30-V, 1-μA IQ Voltage Regulator with Enable
+K tps709, LDO, ti, regulator
+F http://www.ti.com/lit/ds/symlink/tps709.pdf
+$ENDCMP
+#
+$CMP TPS7A39
+D 150mA dual, monolithic, high-PSRR, positive and negative LDO capable of sourcing and sinking
+K LDO, symmetric, high-PSRR
+F https://www.ti.com/lit/ds/symlink/tps7a39.pdf
+$ENDCMP
+#
+$CMP TPW4R50ANH
+D n-Channel Enhancement Mode MOSFET
+K nmos mosfet toshiba
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15504&prodName=TPW4R50ANH
+$ENDCMP
+#
+$CMP TPW4R50ANH_ALT
+D n-Channel Enhancement Mode MOSFET alternative symbol
+K nmos mosfet toshiba
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15504&prodName=TPW4R50ANH
+$ENDCMP
+#
+$CMP UCC27282DRC
+D 120-V Half-Bridge Driver
+F https://www.ti.com/lit/ds/symlink/ucc27282.pdf
+$ENDCMP
+#
+$CMP VEML3328
+D RGBCIR Color Sensor With I2C Interface
+K rgbcir RGB+C+IR light sensor
+F https://www.mouser.at/datasheet/2/427/veml3328-1662889.pdf
+$ENDCMP
+#
+$CMP WE-SL5
+D EMI 2-inductor filter
+K EMI filter
+F https://katalog.we-online.de/pbs/datasheet/744272102.pdf
+$ENDCMP
+#
+$CMP bq76200
+D High-Side N-Channel FET Driver
+K nfet fet driver high-side
+F http://www.ti.com/product/bq76200
+$ENDCMP
+#
+$CMP bq76930
+D 6–10 Series Battery Monitor for Li-Ion and LiFePO4
+K bms, li-ion,
+F /home/zoe/projects/dcusv/bq76930.pdf
+$ENDCMP
+#
+#End Doc Library
