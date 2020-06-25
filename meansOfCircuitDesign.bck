@@ -329,6 +329,11 @@ K light sensor
 F http://www.ti.com/product/OPT3001
 $ENDCMP
 #
+$CMP P2X8C4M64P
+D Parallax Propeller 2 Microcontroller
+F https://docs.google.com/document/d/1gn6oaT5Ib7CytvlZHacmrSbVBJsD9t_-kmvjd7nUR6o
+$ENDCMP
+#
 $CMP Pos
 D Battery Positive Terminal
 K battery 21700 cell
