@@ -318,6 +318,12 @@ K TI MSP430 16-bit mixed signal microcontroller
 F http://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
 $ENDCMP
 #
+$CMP NCP114
+D Low noise LDO with high PSRR and 1% accurate output regulation
+K NCP114 LDO
+F https://www.onsemi.com/pub/Collateral/NCP114-D.PDF
+$ENDCMP
+#
 $CMP Neg
 D Battery Cell Negative Terminal
 K battery cell terminal welded
