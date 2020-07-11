@@ -318,6 +318,12 @@ K TI MSP430 16-bit mixed signal microcontroller
 F http://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
 $ENDCMP
 #
+$CMP NCP114
+D Low noise LDO with high PSRR and 1% accurate output regulation
+K NCP114 LDO
+F https://www.onsemi.com/pub/Collateral/NCP114-D.PDF
+$ENDCMP
+#
 $CMP Neg
 D Battery Cell Negative Terminal
 K battery cell terminal welded
@@ -628,6 +634,11 @@ $CMP WE-SL5
 D EMI 2-inductor filter
 K EMI filter
 F https://katalog.we-online.de/pbs/datasheet/744272102.pdf
+$ENDCMP
+#
+$CMP bq24050
+D Single-Cell Li-Ion and Li-Po Battery Charger With Automatic Adaptor and USB Detection
+F https://www.ti.com/lit/ds/symlink/bq24050.pdf
 $ENDCMP
 #
 $CMP bq76200
