@@ -1,6 +1,6 @@
-(module RGX_TI_VQFN-HR11 (layer F.Cu) (tedit 5BF5CB82)
+(module Texas_RGX_VQFN-HR11 (layer F.Cu) (tedit 5F1961C8)
   (descr http://www.ti.com/lit/ds/symlink/tps62135.pdf)
-  (tags "tps62135, rgx")
+  (tags "tps62135, rgx, vqfn11")
   (solder_mask_margin 0.05)
   (zone_connect 2)
   (attr smd)
@@ -40,12 +40,12 @@
     (zone_connect 2))
   (pad 11 smd roundrect (at -0.75 -1.4) (size 0.25 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15)
     (zone_connect 2))
-  (model /home/zoe/projects/fully-auto-mated/kicad-libraries/3D/TPS62135/Pad.step
+  (model :AUTOMATEDDIR:/3D/TPS62135/Pad.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/zoe/projects/fully-auto-mated/kicad-libraries/3D/TPS62135/Pad.wrl
+  (model :AUTOMATEDDIR:/3D/TPS62135/Pad.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
