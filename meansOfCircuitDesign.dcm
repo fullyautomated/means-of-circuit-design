@@ -36,6 +36,11 @@ $CMP BL8028
 F https://datasheet.lcsc.com/szlcsc/Shanghai-Belling-BL8028CB5TR_C266177.pdf
 $ENDCMP
 #
+$CMP BQ25713
+D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor and Processor Hot Monitor
+F https://www.ti.com/lit/ds/symlink/bq25713.pdf
+$ENDCMP
+#
 $CMP BQ25792
 D I²C Controlled,1-4 Cell, 5-A Buck-Boost Battery Charger with Dual-Input Selector and USB PD 3.0 OTG Output
 F https://www.ti.com/lit/ds/symlink/bq25792.pdf
@@ -338,6 +343,12 @@ $ENDCMP
 $CMP P2X8C4M64P
 D Parallax Propeller 2 Microcontroller
 F https://docs.google.com/document/d/1gn6oaT5Ib7CytvlZHacmrSbVBJsD9t_-kmvjd7nUR6o
+$ENDCMP
+#
+$CMP PBSS8510PA
+D 100V, 5.2A NPN low Vce,sat BISS transistor
+K transistor NPN BISS
+F ~
 $ENDCMP
 #
 $CMP Pos
