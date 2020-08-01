@@ -36,6 +36,11 @@ $CMP BL8028
 F https://datasheet.lcsc.com/szlcsc/Shanghai-Belling-BL8028CB5TR_C266177.pdf
 $ENDCMP
 #
+$CMP BQ25713
+D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor and Processor Hot Monitor
+F https://www.ti.com/lit/ds/symlink/bq25713.pdf
+$ENDCMP
+#
 $CMP BQ25792
 D I²C Controlled,1-4 Cell, 5-A Buck-Boost Battery Charger with Dual-Input Selector and USB PD 3.0 OTG Output
 F https://www.ti.com/lit/ds/symlink/bq25792.pdf
@@ -165,6 +170,18 @@ $ENDCMP
 $CMP LM3414HV
 D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 65-V Input
 F http://www.ti.com/lit/ds/symlink/lm3414hv.pdf
+$ENDCMP
+#
+$CMP LM5060
+D High side protection controller, +5.5V to +65V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LM5069
+D High side protection controller, +5.5V to +80V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5069.pdf
 $ENDCMP
 #
 $CMP LM5114ADBV
@@ -338,6 +355,12 @@ $ENDCMP
 $CMP P2X8C4M64P
 D Parallax Propeller 2 Microcontroller
 F https://docs.google.com/document/d/1gn6oaT5Ib7CytvlZHacmrSbVBJsD9t_-kmvjd7nUR6o
+$ENDCMP
+#
+$CMP PBSS8510PA
+D 100V, 5.2A NPN low Vce,sat BISS transistor
+K transistor NPN BISS
+F ~
 $ENDCMP
 #
 $CMP Pos
@@ -634,6 +657,11 @@ $CMP WE-SL5
 D EMI 2-inductor filter
 K EMI filter
 F https://katalog.we-online.de/pbs/datasheet/744272102.pdf
+$ENDCMP
+#
+$CMP bq24050
+D Single-Cell Li-Ion and Li-Po Battery Charger With Automatic Adaptor and USB Detection
+F https://www.ti.com/lit/ds/symlink/bq24050.pdf
 $ENDCMP
 #
 $CMP bq76200

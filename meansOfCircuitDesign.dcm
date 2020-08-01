@@ -133,6 +133,12 @@ D Fully Automated Logo
 K fully automated logo
 $ENDCMP
 #
+$CMP INA180AxDBVx
+D Unidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-5
+K current monitor shunt sensor unidirectional
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
 $CMP INA186AxDDF
 D Bidirectional, Low-Power, Current-Sense Amplifier
 F https://www.ti.com/lit/ds/symlink/ina186.pdf
@@ -170,6 +176,18 @@ $ENDCMP
 $CMP LM3414HV
 D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 65-V Input
 F http://www.ti.com/lit/ds/symlink/lm3414hv.pdf
+$ENDCMP
+#
+$CMP LM5060
+D High side protection controller, +5.5V to +65V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LM5069
+D High side protection controller, +5.5V to +80V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5069.pdf
 $ENDCMP
 #
 $CMP LM5114ADBV
@@ -354,6 +372,12 @@ $ENDCMP
 $CMP Pos
 D Battery Positive Terminal
 K battery 21700 cell
+$ENDCMP
+#
+$CMP SCD30
+D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
+K sensirion scd30 co2 humidity temperature sensor
+F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
 $CMP SGP30
