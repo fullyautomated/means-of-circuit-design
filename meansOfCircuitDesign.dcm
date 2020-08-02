@@ -659,6 +659,12 @@ D 120-V Half-Bridge Driver
 F https://www.ti.com/lit/ds/symlink/ucc27282.pdf
 $ENDCMP
 #
+$CMP UCC27517
+D UCC2751x Single-Channel High-Speed Low-Side Gate Driver (4-A Peak Source / Sink)
+K ucc27517 low side gate drive mosfet cmos
+F https://www.ti.com/lit/ds/symlink/ucc27517.pdf
+$ENDCMP
+#
 $CMP VEML3328
 D RGBCIR Color Sensor With I2C Interface
 K rgbcir RGB+C+IR light sensor
