@@ -77,6 +77,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_03x13_series
+D Samtec TSW-113-08-T-T-RA or compatible
+$ENDCMP
+#
 $CMP DMN22M5UFG
 D 27A Id, 20 Vds, N-Channel Power MOSFET, 2.5mOhm Ron, 53nC Qg (typ), PowerDI3333-8
 K N-Channel MOSFET

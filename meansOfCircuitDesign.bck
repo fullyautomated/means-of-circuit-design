@@ -77,6 +77,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_03x13_series
+D Samtec TSW-113-08-T-T-RA or compatible
+$ENDCMP
+#
 $CMP DMN22M5UFG
 D 27A Id, 20 Vds, N-Channel Power MOSFET, 2.5mOhm Ron, 53nC Qg (typ), PowerDI3333-8
 K N-Channel MOSFET
@@ -131,6 +135,12 @@ $ENDCMP
 $CMP Fully_Automated_Logo
 D Fully Automated Logo
 K fully automated logo
+$ENDCMP
+#
+$CMP INA180AxDBVx
+D Unidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-5
+K current monitor shunt sensor unidirectional
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
 $ENDCMP
 #
 $CMP INA186AxDDF
@@ -366,6 +376,12 @@ $ENDCMP
 $CMP Pos
 D Battery Positive Terminal
 K battery 21700 cell
+$ENDCMP
+#
+$CMP SCD30
+D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
+K sensirion scd30 co2 humidity temperature sensor
+F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
 $CMP SGP30
@@ -645,6 +661,12 @@ $ENDCMP
 $CMP UCC27282DRC
 D 120-V Half-Bridge Driver
 F https://www.ti.com/lit/ds/symlink/ucc27282.pdf
+$ENDCMP
+#
+$CMP UCC27517
+D UCC2751x Single-Channel High-Speed Low-Side Gate Driver (4-A Peak Source / Sink)
+K ucc27517 low side gate drive mosfet cmos
+F https://www.ti.com/lit/ds/symlink/ucc27517.pdf
 $ENDCMP
 #
 $CMP VEML3328
