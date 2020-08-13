@@ -387,7 +387,7 @@ $CMP SCD30
 D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
 K sensirion scd30 co2 humidity temperature sensor
 F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
-$ENDCOMP
+$ENDCMP
 #
 $CMP RF_SPDT
 D Switch, single pole double throw
