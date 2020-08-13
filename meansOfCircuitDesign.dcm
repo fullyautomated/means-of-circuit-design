@@ -10,6 +10,11 @@ D POS Half of a battery cell
 K 21700 battery cell half
 $ENDCMP
 #
+$CMP 2450FM07D0034
+D Miniature 2.45GHz Impedance Matched Front-End Filter Optimized for Semtech SX1280, SX1281
+F https://www.johansontechnology.com/datasheets/2450FM07D0034/2450FM07D0034.pdf
+$ENDCMP
+#
 $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
@@ -390,6 +395,12 @@ K sensirion scd30 co2 humidity temperature sensor
 F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
+$CMP RF_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
 $CMP SGP30
 D Multipixel MEMS Gas Sensor
 K mems, gas sensor, co2, h2, VOC, co2eq, sensirion
@@ -424,6 +435,11 @@ $CMP STM32G474xBx
 D ARM Cortex-M4 MCU, 128KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32G4 STM32G474
 F https://eu.mouser.com/datasheet/2/389/stm32g474cb-1600828.pdf
+$ENDCMP
+#
+$CMP SX1280
+D Long Range, Low Power, 2.4 GHz Transceiver with Ranging Capability
+F https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HVET/HfcgiChyabtiPTh6EjcDM6ZEwAOQV7IirEmRULgggMM
 $ENDCMP
 #
 $CMP SY8502
