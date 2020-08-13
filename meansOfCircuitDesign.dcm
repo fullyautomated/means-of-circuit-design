@@ -26,6 +26,12 @@ K pmos mosfet ao3401
 F references/datasheets/AO3401.pdf
 $ENDCMP
 #
+$CMP AS7341
+D 11-Channel Spectral Color Sensor
+K multichannel spectral color sensor
+F https://ams.com/documents/20143/36005/AS7341_DS000504_3-00.pdf
+$ENDCMP
+#
 $CMP ATA6561
 D High-Speed CAN Transceiver
 K High-Speed CAN Transceiver
