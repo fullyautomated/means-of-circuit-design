@@ -1,4 +1,7 @@
-(module LED_Osram_DURIS_S5_3x2.55x0.6mm (layer F.Cu) (tedit 5F26CB84)
+(module LED_Osram_DURIS_S5_3x2.55x0.6mm (layer F.Cu) (tedit 5F1742BE)
+  (descr "Osram DURIS S5 LED")
+  (tags "osram duris s5 led")
+  (attr smd)
   (fp_text reference REF** (at 0 2.175) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
