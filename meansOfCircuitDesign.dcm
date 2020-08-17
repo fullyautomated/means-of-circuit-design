@@ -389,16 +389,16 @@ D Battery Positive Terminal
 K battery 21700 cell
 $ENDCMP
 #
-$CMP SCD30
-D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
-K sensirion scd30 co2 humidity temperature sensor
-F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
-$ENDCMP
-#
 $CMP RF_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
 F ~
+$ENDCMP
+#
+$CMP SCD30
+D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
+K sensirion scd30 co2 humidity temperature sensor
+F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
 $CMP SGP30
@@ -481,6 +481,11 @@ $CMP TMP23xDCK
 D Analog temperature sensor, ±1.0C accuracy, -40C to +150C, SC-70-5
 K temperature sensor thermistor
 F https://www.ti.com/lit/ds/symlink/tmp236.pdf
+$ENDCMP
+#
+$CMP TMUX1209
+D Bidirectional 4:1, 2-Channel Multiplexer
+F https://www.ti.com/lit/ds/symlink/tmux1209.pdf
 $ENDCMP
 #
 $CMP TPD6S300A
