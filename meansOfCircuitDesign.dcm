@@ -668,6 +668,11 @@ K LDO, symmetric, high-PSRR
 F https://www.ti.com/lit/ds/symlink/tps7a39.pdf
 $ENDCMP
 #
+$CMP TPS92511
+D 500-mA, 65-V Common Anode Constant Current Buck LED Driver Without External Current Sensing Resistor
+F https://www.ti.com/lit/ds/symlink/tps92511.pdf
+$ENDCMP
+#
 $CMP TPW4R50ANH
 D n-Channel Enhancement Mode MOSFET
 K nmos mosfet toshiba
