@@ -182,6 +182,11 @@ K adafruit itsybitsy m0 atsamd21
 F https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all
 $ENDCMP
 #
+$CMP L86
+D Quectel L86 - MT3333 GNSS Module with Patch Antenna
+F https://docs.rs-online.com/1fe5/0900766b8147dbfb.pdf
+$ENDCMP
+#
 $CMP LM3414
 D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 42-V Input
 K lm3414
@@ -487,6 +492,11 @@ $CMP TMP23xDCK
 D Analog temperature sensor, ±1.0C accuracy, -40C to +150C, SC-70-5
 K temperature sensor thermistor
 F https://www.ti.com/lit/ds/symlink/tmp236.pdf
+$ENDCMP
+#
+$CMP TMUX1209
+D Bidirectional 4:1, 2-Channel Multiplexer
+F https://www.ti.com/lit/ds/symlink/tmux1209.pdf
 $ENDCMP
 #
 $CMP TPD6S300A
