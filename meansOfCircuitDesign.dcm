@@ -255,6 +255,12 @@ K rectifier smart diode ideal diode lm74670
 F https://www.ti.com/lit/ds/symlink/lm74670-q1.pdf
 $ENDCMP
 #
+$CMP LM76005
+D 60-V in, 5-A Synchronous DC/DC Converter
+K dcdc synchronous step-down converter
+F https://www.ti.com/lit/ds/symlink/lm76005.pdf
+$ENDCMP
+#
 $CMP LMP8481-S
 D Precision High Voltage Current Sense Amplifiers, 42V/76V, SOT-23-6
 K current monitor shunt sensor
@@ -389,16 +395,16 @@ D Battery Positive Terminal
 K battery 21700 cell
 $ENDCMP
 #
-$CMP SCD30
-D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
-K sensirion scd30 co2 humidity temperature sensor
-F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
-$ENDCMP
-#
 $CMP RF_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
 F ~
+$ENDCMP
+#
+$CMP SCD30
+D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
+K sensirion scd30 co2 humidity temperature sensor
+F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
 $CMP SGP30
