@@ -68,6 +68,12 @@ K NMOS n-mos n-mosfet transistor depletion nmos
 F ~
 $ENDCMP
 #
+$CMP CN305
+D Battery Cell UV/OV Protector Comparator with Built-In Reference
+K comparator cell protector BMS lcsc
+F https://lcsc.com/product-detail/Analog-Comparators_ShangHai-Consonance-Elec-CN305_C177763.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP CN3765
 F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3765.pdf
 $ENDCMP
