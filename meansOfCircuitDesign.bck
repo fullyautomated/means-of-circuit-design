@@ -19,6 +19,11 @@ $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
 #
+$CMP AL8862
+D 60V 1A STEP-DOWN LED DRIVER
+F https://www.diodes.com/assets/Datasheets/AL8862.pdf
+$ENDCMP
+#
 $CMP AO3400
 D n-Channel Enhancement Mode MOSFET
 K nmos mosfet ao3400
@@ -29,6 +34,12 @@ $CMP AO3401
 D p-Channel Enhancement Mode MOSFET
 K pmos mosfet ao3401
 F references/datasheets/AO3401.pdf
+$ENDCMP
+#
+$CMP AS7341
+D 11-Channel Spectral Color Sensor
+K multichannel spectral color sensor
+F https://ams.com/documents/20143/36005/AS7341_DS000504_3-00.pdf
 $ENDCMP
 #
 $CMP ATA6561
@@ -60,6 +71,12 @@ $CMP BSS139
 D Depletion Mode n-Channel MOSFET
 K NMOS n-mos n-mosfet transistor depletion nmos
 F ~
+$ENDCMP
+#
+$CMP CN305
+D Battery Cell UV/OV Protector Comparator with Built-In Reference
+K comparator cell protector BMS lcsc
+F https://lcsc.com/product-detail/Analog-Comparators_ShangHai-Consonance-Elec-CN305_C177763.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP CN3765
@@ -176,6 +193,11 @@ K adafruit itsybitsy m0 atsamd21
 F https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all
 $ENDCMP
 #
+$CMP L86
+D Quectel L86 - MT3333 GNSS Module with Patch Antenna
+F https://docs.rs-online.com/1fe5/0900766b8147dbfb.pdf
+$ENDCMP
+#
 $CMP LM3414
 D 60-W Common Anode-Capable Constant Current Buck LED Driver with up to 42-V Input
 K lm3414
@@ -249,6 +271,12 @@ K rectifier smart diode ideal diode lm74670
 F https://www.ti.com/lit/ds/symlink/lm74670-q1.pdf
 $ENDCMP
 #
+$CMP LM76005
+D 60-V in, 5-A Synchronous DC/DC Converter
+K dcdc synchronous step-down converter
+F https://www.ti.com/lit/ds/symlink/lm76005.pdf
+$ENDCMP
+#
 $CMP LMP8481-S
 D Precision High Voltage Current Sense Amplifiers, 42V/76V, SOT-23-6
 K current monitor shunt sensor
@@ -292,6 +320,10 @@ $CMP LTC6811-1
 D Multicell Battery Monitor
 K bms battery ltc ltc6811 ltc6804
 F ../references/datasheets/ltc6811.pdf
+$ENDCMP
+#
+$CMP LTR-308ALS-01
+F https://optoelectronics.liteon.com/upload/download/DS86-2016-0027/LTR-308ALS_Final_%20DS_V1%205.PDF
 $ENDCMP
 #
 $CMP LY68L6400
@@ -383,16 +415,16 @@ D Battery Positive Terminal
 K battery 21700 cell
 $ENDCMP
 #
-$CMP SCD30
-D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
-K sensirion scd30 co2 humidity temperature sensor
-F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
-$ENDCOMP
-#
 $CMP RF_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
 F ~
+$ENDCMP
+#
+$CMP SCD30
+D Sensirion SCD30 - CO2, Humidity, and Temperature Sensor Module
+K sensirion scd30 co2 humidity temperature sensor
+F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
 $CMP SGP30
@@ -475,6 +507,11 @@ $CMP TMP23xDCK
 D Analog temperature sensor, ±1.0C accuracy, -40C to +150C, SC-70-5
 K temperature sensor thermistor
 F https://www.ti.com/lit/ds/symlink/tmp236.pdf
+$ENDCMP
+#
+$CMP TMUX1209
+D Bidirectional 4:1, 2-Channel Multiplexer
+F https://www.ti.com/lit/ds/symlink/tmux1209.pdf
 $ENDCMP
 #
 $CMP TPD6S300A
@@ -660,6 +697,16 @@ $CMP TPS7A39
 D 150mA dual, monolithic, high-PSRR, positive and negative LDO capable of sourcing and sinking
 K LDO, symmetric, high-PSRR
 F https://www.ti.com/lit/ds/symlink/tps7a39.pdf
+$ENDCMP
+#
+$CMP TPS7A4101
+D 50-V Input Voltage, 50-mA Linear Regulator
+F https://www.ti.com/lit/ds/symlink/tps7a4101.pdf
+$ENDCMP
+#
+$CMP TPS92511
+D 500-mA, 65-V Common Anode Constant Current Buck LED Driver Without External Current Sensing Resistor
+F https://www.ti.com/lit/ds/symlink/tps92511.pdf
 $ENDCMP
 #
 $CMP TPW4R50ANH
