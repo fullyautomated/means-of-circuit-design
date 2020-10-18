@@ -811,6 +811,11 @@ K nmos mosfet toshiba
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=15504&prodName=TPW4R50ANH
 $ENDCMP
 #
+$CMP TZ35_Dual_LED
+D UVC and Purple Dual LED
+K UVC UVA Purple LED
+$ENDCMP
+#
 $CMP UCC27282DRC
 D 120-V Half-Bridge Driver
 F https://www.ti.com/lit/ds/symlink/ucc27282.pdf
