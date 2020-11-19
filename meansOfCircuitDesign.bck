@@ -52,6 +52,11 @@ $CMP BL8028
 F https://datasheet.lcsc.com/szlcsc/Shanghai-Belling-BL8028CB5TR_C266177.pdf
 $ENDCMP
 #
+$CMP BQ21062
+D I2C Controlled 1-Cell 500-mA Linear Battery Charger with Power Path, Load Switch, 10-nA Ship Mode, and Regulated System (PMID) Voltage
+F https://www.ti.com/lit/ds/symlink/bq21062.pdf
+$ENDCMP
+#
 $CMP BQ25713
 D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor and Processor Hot Monitor
 F https://www.ti.com/lit/ds/symlink/bq25713.pdf
@@ -131,6 +136,12 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP EL357N-G
+D DC Optocoupler, Vce 80V, CTR 50-600%, SO-4
+K NPN DC Optocoupler
+F https://www.everlight.com/file/ProductFile/EL357N-G.pdf
+$ENDCMP
+#
 $CMP EMI_Filter_CommonMode
 D EMI 2-inductor common mode filter
 K EMI common mode filter
@@ -196,6 +207,11 @@ $ENDCMP
 $CMP L86
 D Quectel L86 - MT3333 GNSS Module with Patch Antenna
 F https://docs.rs-online.com/1fe5/0900766b8147dbfb.pdf
+$ENDCMP
+#
+$CMP LC709204F
+D Battery Fuel Gauge for 1-Cell Li+ with Low Power 2µA Operation
+F https://www.onsemi.com/pub/Collateral/LC709204F-D.PDF
 $ENDCMP
 #
 $CMP LM3414
@@ -427,6 +443,54 @@ K sensirion scd30 co2 humidity temperature sensor
 F https://www.sensirion.com/en/download-center/carbon-dioxide-sensors-co2/co2-sensor/
 $ENDCMP
 #
+$CMP SFH617A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
 $CMP SGP30
 D Multipixel MEMS Gas Sensor
 K mems, gas sensor, co2, h2, VOC, co2eq, sensirion
@@ -437,6 +501,27 @@ $CMP SHT3x-DIS
 D I2C Humidity and Temperature Sensor
 K humidity, temperature, sensor, sensirion, i2c, sht31, sht3x
 F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SMF05CT1G
+D 5V ESD Protection Diode Array, 5-Line
+K ESD TVS
+F https://www.onsemi.com/pub/Collateral/SMF05C-D.PDF
+$ENDCMP
+#
+$CMP SMF12CT1G
+D 12V ESD Protection Diode Array, 5-Line
+K ESD TVS
+$ENDCMP
+#
+$CMP SMF15CT1G
+D 15V ESD Protection Diode Array, 5-Line
+K ESD TVS
+$ENDCMP
+#
+$CMP SMF24CT1G
+D 24V ESD Protection Diode Array, 5-Line
+K ESD TVS
 $ENDCMP
 #
 $CMP SSM6K514NU
@@ -457,6 +542,18 @@ K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf
 $ENDCMP
 #
+$CMP STM32G030KxT
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
+K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
+F https://www.st.com/resource/en/datasheet/stm32g030k6.pdf
+$ENDCMP
+#
+$CMP STM32G0xxKx
+D ARM Cortex-M0+ MCU, up to 128KB flash, 36KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
+K ARM Cortex-M0+ STM32G0
+F https://www.st.com/resource/en/datasheet/stm32g030k6.pdf
+$ENDCMP
+#
 $CMP STM32G474xBx
 D ARM Cortex-M4 MCU, 128KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32G4 STM32G474
@@ -471,6 +568,11 @@ $ENDCMP
 $CMP SY8502
 D 85-V Input 1.2-A Synchronous Step-Down Regulator
 F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8502FCC_C87752.pdf
+$ENDCMP
+#
+$CMP SZSMF12CT1G
+D 12V ESD Protection Diode Array, 5-Line, AEC-Q101 Qualified
+K ESD TVS AEC-Q101 Automotive
 $ENDCMP
 #
 $CMP Si8821EDB
@@ -553,6 +655,12 @@ $CMP TPS22860
 D Ultra-Low Leakage Load Switch
 K load switch
 F http://www.ti.com/lit/ds/symlink/tps22860.pdf
+$ENDCMP
+#
+$CMP TPS54062
+D 50mA, Step Down DC-DC Converter with Low IQ, 4.7-60V Input Voltage
+K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
+F http://www.ti.com/lit/ds/symlink/tps54062.pdf
 $ENDCMP
 #
 $CMP TPS560430
@@ -719,6 +827,11 @@ $CMP TPW4R50ANH_ALT
 D n-Channel Enhancement Mode MOSFET alternative symbol
 K nmos mosfet toshiba
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=15504&prodName=TPW4R50ANH
+$ENDCMP
+#
+$CMP TZ35_Dual_LED
+D UVC and Purple Dual LED
+K UVC UVA Purple LED
 $ENDCMP
 #
 $CMP UCC27282DRC

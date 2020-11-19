@@ -542,9 +542,9 @@ K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf
 $ENDCMP
 #
-$CMP STM32G030KxT
-D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
-K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
+$CMP STM32G0xxKx
+D ARM Cortex-M0+ MCU, up to 128KB flash, 36KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
+K ARM Cortex-M0+ STM32G0
 F https://www.st.com/resource/en/datasheet/stm32g030k6.pdf
 $ENDCMP
 #
