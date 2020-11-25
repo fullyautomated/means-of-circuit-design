@@ -682,6 +682,11 @@ $CMP TPS560430YF
 D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 2.1-MHz, Vout Adjustable
 $ENDCMP
 #
+$CMP TPS61196-Q1
+D 6-String 400-mA WLED Driver with Independent PWM dimming for Each String
+F https://www.ti.com/lit/ds/symlink/tps61196-q1.pdf
+$ENDCMP
+#
 $CMP TPS62135
 D High Accuracy 4-A Step-Down Converter with DCS-Control in VQFN Package
 K dcs, hysteretic, buck, step-down, converter
