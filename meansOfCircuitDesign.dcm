@@ -253,6 +253,15 @@ K LM5122
 F https://www.ti.com/lit/ds/symlink/lm5122.pdf
 $ENDCMP
 #
+$CMP LM5155
+D Wide Input Nonsynchronous Boost, SEPIC, Flyback Controller
+F https://www.ti.com/lit/ds/symlink/lm5155.pdf
+$ENDCMP
+#
+$CMP LM51551
+D Wide Input Nonsynchronous Boost, SEPIC, Flyback Controller with Hiccup enabled
+$ENDCMP
+#
 $CMP LM5164
 D 100-V input 1-A synchronous buck
 K dcdc, buck, wide_vin, synchronous, power, step-down
@@ -608,6 +617,11 @@ $ENDCMP
 $CMP TMUX1209
 D Bidirectional 4:1, 2-Channel Multiplexer
 F https://www.ti.com/lit/ds/symlink/tmux1209.pdf
+$ENDCMP
+#
+$CMP TPA3245
+D TPA3245 115-W Stereo, 230-W Mono PurePath™ Ultra-HD Analog-Input Class-D Amplifier
+F https://www.ti.com/lit/ds/symlink/tpa3245.pdf
 $ENDCMP
 #
 $CMP TPD6S300A
