@@ -665,6 +665,10 @@ K load switch
 F http://www.ti.com/lit/ds/symlink/tps22860.pdf
 $ENDCMP
 #
+$CMP TPS25947
+F https://www.ti.com/lit/ds/symlink/tps25947.pdf
+$ENDCMP
+#
 $CMP TPS54062
 D 50mA, Step Down DC-DC Converter with Low IQ, 4.7-60V Input Voltage
 K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
