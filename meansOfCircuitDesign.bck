@@ -253,6 +253,15 @@ K LM5122
 F https://www.ti.com/lit/ds/symlink/lm5122.pdf
 $ENDCMP
 #
+$CMP LM5155
+D Wide Input Nonsynchronous Boost, SEPIC, Flyback Controller
+F https://www.ti.com/lit/ds/symlink/lm5155.pdf
+$ENDCMP
+#
+$CMP LM51551
+D Wide Input Nonsynchronous Boost, SEPIC, Flyback Controller with Hiccup enabled
+$ENDCMP
+#
 $CMP LM5164
 D 100-V input 1-A synchronous buck
 K dcdc, buck, wide_vin, synchronous, power, step-down
@@ -542,12 +551,6 @@ K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf
 $ENDCMP
 #
-$CMP STM32G030KxT
-D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
-K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
-F https://www.st.com/resource/en/datasheet/stm32g030k6.pdf
-$ENDCMP
-#
 $CMP STM32G0xxKx
 D ARM Cortex-M0+ MCU, up to 128KB flash, 36KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32G0
@@ -616,6 +619,11 @@ D Bidirectional 4:1, 2-Channel Multiplexer
 F https://www.ti.com/lit/ds/symlink/tmux1209.pdf
 $ENDCMP
 #
+$CMP TPA3245
+D TPA3245 115-W Stereo, 230-W Mono PurePath™ Ultra-HD Analog-Input Class-D Amplifier
+F https://www.ti.com/lit/ds/symlink/tpa3245.pdf
+$ENDCMP
+#
 $CMP TPD6S300A
 D Single-chip USB Type-C port protection device that provides 20-VShort-to-VBUS overvoltage and IEC ESD protection.
 F https://www.ti.com/lit/ds/symlink/tpd6s300a.pdf
@@ -657,6 +665,10 @@ K load switch
 F http://www.ti.com/lit/ds/symlink/tps22860.pdf
 $ENDCMP
 #
+$CMP TPS25947
+F https://www.ti.com/lit/ds/symlink/tps25947.pdf
+$ENDCMP
+#
 $CMP TPS54062
 D 50mA, Step Down DC-DC Converter with Low IQ, 4.7-60V Input Voltage
 K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
@@ -686,6 +698,11 @@ $ENDCMP
 #
 $CMP TPS560430YF
 D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 2.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS61196-Q1
+D 6-String 400-mA WLED Driver with Independent PWM dimming for Each String
+F https://www.ti.com/lit/ds/symlink/tps61196-q1.pdf
 $ENDCMP
 #
 $CMP TPS62135

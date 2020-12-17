@@ -829,6 +829,11 @@ D 50-V Input Voltage, 50-mA Linear Regulator
 F https://www.ti.com/lit/ds/symlink/tps7a4101.pdf
 $ENDCMP
 #
+$CMP TPS92200
+D 4-V to 30-V Input Voltage, 1.5-A Output Current, Synchronous Buck LED Driver With Flexible Dimming Options
+F https://www.ti.com/lit/ds/symlink/tps92200.pdf
+$ENDCMP
+#
 $CMP TPS92511
 D 500-mA, 65-V Common Anode Constant Current Buck LED Driver Without External Current Sensing Resistor
 F https://www.ti.com/lit/ds/symlink/tps92511.pdf
