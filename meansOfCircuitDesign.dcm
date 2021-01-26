@@ -78,6 +78,12 @@ K NMOS n-mos n-mosfet transistor depletion nmos
 F ~
 $ENDCMP
 #
+$CMP CC6900SO-10A
+D CrossChip Magnetic Current-Sense 100-V Isolation
+K fluxgate hall magnetic current sense crosschip
+F https://datasheet.lcsc.com/szlcsc/CrossChip-CC6900SO-10A_C286005.pdf
+$ENDCMP
+#
 $CMP CN305
 D Battery Cell UV/OV Protector Comparator with Built-In Reference
 K comparator cell protector BMS lcsc
@@ -185,6 +191,102 @@ $CMP INA190Ax-Q1
 D Automotive, 40-V, High Precision, Low Bias Current, Low Power, Current Sense Amplifier
 K current sense amplifier
 F http://www.ti.com/lit/ds/symlink/ina190-q1.pdf
+$ENDCMP
+#
+$CMP INA240A1D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A2D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A3D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 100V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A4D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA293A1
+D 20V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293A2
+D 50V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293A3
+D 100V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293A4
+D 200 V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293A5
+D 500 V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293Ax
+D High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293B1
+D 20V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293B2
+D 50V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293B3
+D 100V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293B4
+D 200 V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293B5
+D 500 V/V, High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
+$ENDCMP
+#
+$CMP INA293Bx
+D High- and Low-Side, Unidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, SOT-23-5
+K current monitor shunt sensor unidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina293.pdf
 $ENDCMP
 #
 $CMP ISL81601FVEZ
@@ -357,6 +459,11 @@ F https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf
 $ENDCMP
 #
 $CMP MCA1101
+D Current Sensor, Fixed Gain Output
+F https://navview.blob.core.windows.net/web-resources/6020-1104-01_B%20Datasheet%2C%20Current%20Sensor%20Fix%20Gain%203.3V_20190627.pdf
+$ENDCMP
+#
+$CMP MCA1101_copy
 D Current Sensor, Fixed Gain Output
 F https://navview.blob.core.windows.net/web-resources/6020-1104-01_B%20Datasheet%2C%20Current%20Sensor%20Fix%20Gain%203.3V_20190627.pdf
 $ENDCMP
