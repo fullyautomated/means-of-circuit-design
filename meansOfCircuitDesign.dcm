@@ -547,6 +547,11 @@ D Battery Positive Terminal
 K battery 21700 cell
 $ENDCMP
 #
+$CMP Q_DUAL_PNP_PNP_B2B1C1E1E2C2
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+$ENDCMP
+#
 $CMP RF_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
