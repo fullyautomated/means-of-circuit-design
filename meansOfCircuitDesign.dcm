@@ -930,6 +930,11 @@ K tps709, LDO, ti, regulator
 F http://www.ti.com/lit/ds/symlink/tps709.pdf
 $ENDCMP
 #
+$CMP TPS7A37
+D High-Accuracy, 1-A, Low-Dropout Regulator With Reverse Current Protection
+F https://www.ti.com/lit/ds/symlink/tps7a37.pdf
+$ENDCMP
+#
 $CMP TPS7A39
 D 150mA dual, monolithic, high-PSRR, positive and negative LDO capable of sourcing and sinking
 K LDO, symmetric, high-PSRR
