@@ -686,6 +686,12 @@ D Long Range, Low Power, 2.4 GHz Transceiver with Ranging Capability
 F https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HVET/HfcgiChyabtiPTh6EjcDM6ZEwAOQV7IirEmRULgggMM
 $ENDCMP
 #
+$CMP SY7208CABC
+D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7208CABC_C178234.pdf
+$ENDCMP
+#
 $CMP SY8502
 D 85-V Input 1.2-A Synchronous Step-Down Regulator
 F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8502FCC_C87752.pdf

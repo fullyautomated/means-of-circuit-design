@@ -520,12 +520,6 @@ K TI MSP430 16-bit mixed signal microcontroller
 F http://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
 $ENDCMP
 #
-$CMP MT3608
-D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
-K Step-Up Boost DC-DC Regulator Adjustable
-F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
-$ENDCMP
-#
 $CMP NCP114
 D Low noise LDO with high PSRR and 1% accurate output regulation
 K NCP114 LDO
@@ -690,6 +684,24 @@ $ENDCMP
 $CMP SX1280
 D Long Range, Low Power, 2.4 GHz Transceiver with Ranging Capability
 F https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HVET/HfcgiChyabtiPTh6EjcDM6ZEwAOQV7IirEmRULgggMM
+$ENDCMP
+#
+$CMP SY7208C
+D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
+$ENDCMP
+#
+$CMP SY7208CABC
+D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
+$ENDCMP
+#
+$CMP SY7208Cx
+D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
 $ENDCMP
 #
 $CMP SY8502
