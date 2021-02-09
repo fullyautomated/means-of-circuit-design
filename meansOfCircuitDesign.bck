@@ -36,6 +36,12 @@ K pmos mosfet ao3401
 F references/datasheets/AO3401.pdf
 $ENDCMP
 #
+$CMP AP3012KTR-G1
+D High Efficiency 1.2MHz 500mA Step-Up Converter, 2-24V Vin, 28V Vout, 1.2MHz, SOT23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
+$ENDCMP
+#
 $CMP AS7341
 D 11-Channel Spectral Color Sensor
 K multichannel spectral color sensor
@@ -514,6 +520,12 @@ K TI MSP430 16-bit mixed signal microcontroller
 F http://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
 $ENDCMP
 #
+$CMP MT3608
+D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+$ENDCMP
+#
 $CMP NCP114
 D Low noise LDO with high PSRR and 1% accurate output regulation
 K NCP114 LDO
@@ -928,6 +940,11 @@ $CMP TPS709DRV
 D 150-mA,30-V, 1-μA IQ Voltage Regulator with Enable
 K tps709, LDO, ti, regulator
 F http://www.ti.com/lit/ds/symlink/tps709.pdf
+$ENDCMP
+#
+$CMP TPS7A37
+D High-Accuracy, 1-A, Low-Dropout Regulator With Reverse Current Protection
+F https://www.ti.com/lit/ds/symlink/tps7a37.pdf
 $ENDCMP
 #
 $CMP TPS7A39

@@ -36,6 +36,12 @@ K pmos mosfet ao3401
 F references/datasheets/AO3401.pdf
 $ENDCMP
 #
+$CMP AP3012KTR-G1
+D High Efficiency 1.2MHz 500mA Step-Up Converter, 2-24V Vin, 28V Vout, 1.2MHz, SOT23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
+$ENDCMP
+#
 $CMP AS7341
 D 11-Channel Spectral Color Sensor
 K multichannel spectral color sensor
