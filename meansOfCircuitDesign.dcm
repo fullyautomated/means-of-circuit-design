@@ -799,6 +799,11 @@ K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54062.pdf
 $ENDCMP
 #
+$CMP TPS55340R
+D Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator
+F https://www.ti.com/lit/ds/symlink/tps55340.pdf
+$ENDCMP
+#
 $CMP TPS560430
 D 4-V to 36-V 600-mA Synchronous Step-Down Converter
 F http://www.ti.com/lit/ds/symlink/tps560430.pdf
