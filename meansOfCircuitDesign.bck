@@ -686,22 +686,10 @@ D Long Range, Low Power, 2.4 GHz Transceiver with Ranging Capability
 F https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HVET/HfcgiChyabtiPTh6EjcDM6ZEwAOQV7IirEmRULgggMM
 $ENDCMP
 #
-$CMP SY7208C
-D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
-K Step-Up Boost DC-DC Regulator Adjustable
-F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
-$ENDCMP
-#
 $CMP SY7208CABC
 D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
 K Step-Up Boost DC-DC Regulator Adjustable
-F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
-$ENDCMP
-#
-$CMP SY7208Cx
-D High Efficiency 1MHz 600mA Async Step-Up Converter, 3-25V Vin, 25V Vout, SOT23-6
-K Step-Up Boost DC-DC Regulator Adjustable
-F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP3012KTR-G1_C102618.pdf
+F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7208CABC_C178234.pdf
 $ENDCMP
 #
 $CMP SY8502
@@ -809,6 +797,11 @@ $CMP TPS54062
 D 50mA, Step Down DC-DC Converter with Low IQ, 4.7-60V Input Voltage
 K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54062.pdf
+$ENDCMP
+#
+$CMP TPS55340R
+D Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator
+F https://www.ti.com/lit/ds/symlink/tps55340.pdf
 $ENDCMP
 #
 $CMP TPS560430
