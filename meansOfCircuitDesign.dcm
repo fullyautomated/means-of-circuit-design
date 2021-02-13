@@ -19,6 +19,12 @@ $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
 #
+$CMP AL1783
+D 60V Three independent PWM channel Linear LED Driver
+K 60V Linear LED Driver Diodes
+F https://www.diodes.com/assets/Datasheets/AL1783.pdf
+$ENDCMP
+#
 $CMP AL8862
 D 60V 1A STEP-DOWN LED DRIVER
 F https://www.diodes.com/assets/Datasheets/AL8862.pdf
