@@ -19,6 +19,12 @@ $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
 #
+$CMP AL1783
+D 60V Three independent PWM channel Linear LED Driver
+K 60V Linear LED Driver Diodes
+F https://www.diodes.com/assets/Datasheets/AL1783.pdf
+$ENDCMP
+#
 $CMP AL8862
 D 60V 1A STEP-DOWN LED DRIVER
 F https://www.diodes.com/assets/Datasheets/AL8862.pdf
@@ -390,6 +396,12 @@ $ENDCMP
 $CMP LM5166Y
 D 3.3-V Output, 3-V to 65-V Input, 0.5-A Synchronous Buck Converter With Ultra-Low Iq
 K buck converter, wide vin, iq
+$ENDCMP
+#
+$CMP LM5170
+D Multiphase Bidirectional Current Controller
+K bidirectional, current controller, multiphase, dcdc
+F http://www.ti.com/lit/ds/symlink/lm5170.pdf
 $ENDCMP
 #
 $CMP LM5170-Q1
