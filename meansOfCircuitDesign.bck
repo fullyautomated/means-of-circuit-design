@@ -74,6 +74,11 @@ D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor
 F https://www.ti.com/lit/ds/symlink/bq25713.pdf
 $ENDCMP
 #
+$CMP BQ25731
+D I²C Narrow VDC Buck-Boost Battery Charge Controller With USB-C PD 3.0 OTG Output
+F https://www.ti.com/lit/ds/symlink/bq25731.pdf
+$ENDCMP
+#
 $CMP BQ25792
 D I²C Controlled,1-4 Cell, 5-A Buck-Boost Battery Charger with Dual-Input Selector and USB PD 3.0 OTG Output
 F https://www.ti.com/lit/ds/symlink/bq25792.pdf
