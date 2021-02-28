@@ -74,6 +74,11 @@ D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor
 F https://www.ti.com/lit/ds/symlink/bq25713.pdf
 $ENDCMP
 #
+$CMP BQ25730
+D I²C Narrow VDC Buck-Boost Battery Charge Controller With System Power Monitor and Processor Hot Monitor
+F https://www.ti.com/lit/ds/symlink/bq25730.pdf
+$ENDCMP
+#
 $CMP BQ25731
 D I²C Narrow VDC Buck-Boost Battery Charge Controller With USB-C PD 3.0 OTG Output
 F https://www.ti.com/lit/ds/symlink/bq25731.pdf
@@ -680,10 +685,28 @@ K thermistor
 F https://www.mouser.at/datasheet/2/389/stlm20-956222.pdf
 $ENDCMP
 #
+$CMP STM32F091CCUx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
 $CMP STM32F401RCTx
 D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf
+$ENDCMP
+#
+$CMP STM32G0B1CxU
+D ARM Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0+ STM32G0 STM32G0x1
+F https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf
+$ENDCMP
+#
+$CMP STM32G0B1CxUx
+D ARM Cortex-M0+ MCU, 128KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0+ STM32G0 STM32G0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
 $ENDCMP
 #
 $CMP STM32G0xxKx
