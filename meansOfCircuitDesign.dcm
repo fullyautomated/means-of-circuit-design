@@ -736,6 +736,11 @@ K pmos, mosfet, p-ch, trenchfet
 F https://datasheet.octopart.com/SI8821EDB-T2-E1-Vishay-datasheet-20913387.pdf
 $ENDCMP
 #
+$CMP TCAN1044x-Q1
+D TCAN1044x-Q1 Automotive Fault-Protected CAN-FD Transceiver
+F https://www.ti.com/lit/ds/symlink/tcan1044-q1.pdf
+$ENDCMP
+#
 $CMP TCAN330G
 D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
 K High-Speed CAN Transceiver
