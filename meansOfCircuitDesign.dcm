@@ -753,6 +753,12 @@ K can transceiver, can fd,
 F https://www.ti.com/lit/ds/symlink/tcan4550.pdf
 $ENDCMP
 #
+$CMP TJA1055
+D Fault-Tolerant CAN Transceiver, silent mode, SO-14
+K Fault-Tolerant CAN Transceiver
+F https://www.nxp.com/docs/en/data-sheet/TJA1055.pdf
+$ENDCMP
+#
 $CMP TLV9061DCK
 D 10MHz RRIO 1.8V-5.5V Op-Amp in SC-70 package
 K rrio opamp tlv
