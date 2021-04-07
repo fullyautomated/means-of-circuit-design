@@ -60,6 +60,12 @@ K High-Speed CAN Transceiver
 F https://datasheet.octopart.com/ATA6561-GAQW-N-Microchip-datasheet-119327316.pdf
 $ENDCMP
 #
+$CMP AZ1117CH-3_3TRG1
+D IC REG LINEAR 3.3V 800MA SOT223
+K AZ1117CH-3.3TRG1DICT-ND AZ1117C
+F https://www.diodes.com/assets/Datasheets/AZ1117C.pdf
+$ENDCMP
+#
 $CMP BL8028
 F https://datasheet.lcsc.com/szlcsc/Shanghai-Belling-BL8028CB5TR_C266177.pdf
 $ENDCMP
