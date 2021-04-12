@@ -392,6 +392,21 @@ $CMP LM51551
 D Wide Input Nonsynchronous Boost, SEPIC, Flyback Controller with Hiccup enabled
 $ENDCMP
 #
+$CMP LM5157
+D Wide Vin 50-V Boost/SEPIC/Flyback Converter with Dual Random Spread Spectrum
+F https://www.ti.com/lit/ds/symlink/lm5157-q1.pdf
+$ENDCMP
+#
+$CMP LM5157-Q1
+D Wide Vin 50-V Boost/SEPIC/Flyback Converter with Dual Random Spread Spectrum
+F https://www.ti.com/lit/ds/symlink/lm5157-q1.pdf
+$ENDCMP
+#
+$CMP LM51571-Q1
+D Wide Vin 50-V Boost/SEPIC/Flyback Converter with Dual Random Spread Spectrum
+F https://www.ti.com/lit/ds/symlink/lm5157-q1.pdf
+$ENDCMP
+#
 $CMP LM5164
 D 100-V input 1-A synchronous buck
 K dcdc, buck, wide_vin, synchronous, power, step-down
@@ -450,6 +465,11 @@ K current monitor shunt sensor
 F http://www.ti.com/lit/ds/symlink/lmp8480.pdf
 $ENDCMP
 #
+$CMP LMR26503-Q1
+D 3-V to 65-V, 0.3-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
+F https://www.ti.com/lit/ds/symlink/lmr36503-q1.pdf
+$ENDCMP
+#
 $CMP LMR33610
 D 3.8-V to 36-V 1-A Synchronous Step-Down Converter
 F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
@@ -463,6 +483,26 @@ $ENDCMP
 $CMP LMR33610BDDAR
 D 3.8-V to 36-V 1-A Synchronous Step-Down Converter, 1.4 MHz
 F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR36503
+D 3-V to 65-V, 0.3-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
+F https://www.ti.com/lit/ds/symlink/lmr36503.pdf
+$ENDCMP
+#
+$CMP LMR36503-Q1
+D 3-V to 65-V, 0.3-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
+F https://www.ti.com/lit/ds/symlink/lmr36503-q1.pdf
+$ENDCMP
+#
+$CMP LMR36506
+D 3-V to 65-V, 0.6-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
+F https://www.ti.com/lit/ds/symlink/lmr36506.pdf
+$ENDCMP
+#
+$CMP LMR36506-Q1
+D 3-V to 65-V, 0.6-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
+F https://www.ti.com/lit/ds/symlink/lmr36506-q1.pdf
 $ENDCMP
 #
 $CMP LT8708
@@ -990,6 +1030,11 @@ $CMP TPS709DRV
 D 150-mA,30-V, 1-μA IQ Voltage Regulator with Enable
 K tps709, LDO, ti, regulator
 F http://www.ti.com/lit/ds/symlink/tps709.pdf
+$ENDCMP
+#
+$CMP TPS7A20
+D 300-mA, Ultra-Low-Noise, Low-Iq, High PSRR LDO
+F https://www.ti.com/lit/ds/symlink/tps7a20.pdf
 $ENDCMP
 #
 $CMP TPS7A37
