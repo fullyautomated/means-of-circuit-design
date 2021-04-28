@@ -505,10 +505,21 @@ D 3-V to 65-V, 0.6-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
 F https://www.ti.com/lit/ds/symlink/lmr36506-q1.pdf
 $ENDCMP
 #
+$CMP LSF0108
+D 8 Channel Auto-Bidirectional Multi-Voltage Level Translator for Open-Drain and Push-Pull Applications
+K Noninverting Bidirectional
+F https://www.ti.com/lit/ds/symlink/lsf0108.pdf
+$ENDCMP
+#
 $CMP LT8708
 D 80V Synchronous 4-Switch Buck-Boost DC/DC Controller
 K LT8708, analog, dcdc, 4-switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8708.pdf
+$ENDCMP
+#
+$CMP LT8714
+D Bipolar Output Synchronous Controller with Seamless Four Quadrant Operation
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8714f.pdf
 $ENDCMP
 #
 $CMP LTC2946
@@ -574,6 +585,11 @@ $ENDCMP
 #
 $CMP MCR1101
 F https://navview.blob.core.windows.net/web-resources/6020-1103-01_B%20Datasheet%2C%20Current%20Sensor%20Ratio%20Metric%203.3V%2020190627.pdf
+$ENDCMP
+#
+$CMP MP2451
+D 36V, 2MHz, 0.6A Step-Down Converter
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2451/document_id/253/
 $ENDCMP
 #
 $CMP MSP-BOOSTERPACK-40
