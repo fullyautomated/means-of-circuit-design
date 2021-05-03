@@ -126,6 +126,11 @@ $CMP COMexpressType6_AB
 D COM Express Type 6 AB connector
 $ENDCMP
 #
+$CMP CYPD3177
+D USB Type-C Port Controller for Power Sinks
+F https://www.cypress.com/file/460416/download
+$ENDCMP
+#
 $CMP Conn_02x06_BMS
 D BMS connector v2
 K connector
@@ -152,6 +157,11 @@ $CMP DMP2018LFK
 D -12A Id, -20V Vds, 16mOhm Rdson, p-Channel Enhancement Mode MOSFET in U-DFN2523-6 Package
 K P-Channel MOSFET
 F https://www.mouser.at/datasheet/2/115/DMP2018LFK-218502.pdf
+$ENDCMP
+#
+$CMP DMP2100UFU
+D Dual PMOS, 20V, 5.7A
+F https://www.diodes.com/assets/Datasheets/DMP2100UFU.pdf
 $ENDCMP
 #
 $CMP DRV8350S
