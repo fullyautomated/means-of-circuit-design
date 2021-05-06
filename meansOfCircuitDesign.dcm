@@ -515,6 +515,16 @@ D 3-V to 65-V, 0.6-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
 F https://www.ti.com/lit/ds/symlink/lmr36506-q1.pdf
 $ENDCMP
 #
+$CMP LMR50410
+D SIMPLE SWITCHER 4-V to 36-V, 1-A Buck Converter
+F https://www.ti.com/lit/ds/symlink/lmr50410.pdf
+$ENDCMP
+#
+$CMP LMR50410-Q1
+D SIMPLE SWITCHER 4-V to 36-V, 1-A Buck Converter
+F https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf
+$ENDCMP
+#
 $CMP LSF0108
 D 8 Channel Auto-Bidirectional Multi-Voltage Level Translator for Open-Drain and Push-Pull Applications
 K Noninverting Bidirectional
