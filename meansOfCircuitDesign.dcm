@@ -60,6 +60,12 @@ K High-Speed CAN Transceiver
 F https://datasheet.octopart.com/ATA6561-GAQW-N-Microchip-datasheet-119327316.pdf
 $ENDCMP
 #
+$CMP AX5243
+D Advanced High Performance ASK and FSK Narrow-band Transceiver for 27 - 1050 MHz Range
+K RF, tranceiver
+F https://www.onsemi.com/pub/Collateral/AX5243-D.PDF
+$ENDCMP
+#
 $CMP AZ1117CH-3_3TRG1
 D IC REG LINEAR 3.3V 800MA SOT223
 K AZ1117CH-3.3TRG1DICT-ND AZ1117C
@@ -948,6 +954,11 @@ $ENDCMP
 #
 $CMP TPS560430YF
 D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 2.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS61094
+D 60-nA Quiescent Current Bi-directional Buck/Boost Converter with Bypass Mode
+F https://www.ti.com/lit/ds/symlink/tps61094.pdf
 $ENDCMP
 #
 $CMP TPS61196-Q1
