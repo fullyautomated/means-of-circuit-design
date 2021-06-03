@@ -15,6 +15,18 @@ D Miniature 2.45GHz Impedance Matched Front-End Filter Optimized for Semtech SX1
 F https://www.johansontechnology.com/datasheets/2450FM07D0034/2450FM07D0034.pdf
 $ENDCMP
 #
+$CMP ADP3110AKCPZ-RL
+D Dual Boostrapped 12-V MOSFET Driver w/ Output Disable and Adaptive Deadtime Control
+K gate driver deadtime half-bridge lcsc
+F https://datasheet.lcsc.com/lcsc/1810010214_ON-Semiconductor-ADP3110AKCPZ-RL_C109351.pdf
+$ENDCMP
+#
+$CMP ADP3110AKCRZ-RL
+D Dual Boostrapped 12-V MOSFET Driver w/ Output Disable and Adaptive Deadtime Control SOIC-8
+K gate driver deadtime half-bridge lcsc
+F https://datasheet.lcsc.com/lcsc/1810010214_ON-Semiconductor-ADP3110AKCPZ-RL_C109351.pdf
+$ENDCMP
+#
 $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
@@ -58,6 +70,12 @@ $CMP ATA6561
 D High-Speed CAN Transceiver
 K High-Speed CAN Transceiver
 F https://datasheet.octopart.com/ATA6561-GAQW-N-Microchip-datasheet-119327316.pdf
+$ENDCMP
+#
+$CMP AX5243
+D Advanced High Performance ASK and FSK Narrow-band Transceiver for 27 - 1050 MHz Range
+K RF, tranceiver
+F https://www.onsemi.com/pub/Collateral/AX5243-D.PDF
 $ENDCMP
 #
 $CMP AZ1117CH-3_3TRG1
@@ -116,6 +134,11 @@ $CMP CN305
 D Battery Cell UV/OV Protector Comparator with Built-In Reference
 K comparator cell protector BMS lcsc
 F https://lcsc.com/product-detail/Analog-Comparators_ShangHai-Consonance-Elec-CN305_C177763.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP CN3300
+D PFM Step-up Battery Charger Controller IC
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3300.pdf
 $ENDCMP
 #
 $CMP CN3765
@@ -515,6 +538,16 @@ D 3-V to 65-V, 0.6-A Ultra-Small Synchronous Buck Converter with Ultra-Low Iq
 F https://www.ti.com/lit/ds/symlink/lmr36506-q1.pdf
 $ENDCMP
 #
+$CMP LMR50410
+D SIMPLE SWITCHER 4-V to 36-V, 1-A Buck Converter
+F https://www.ti.com/lit/ds/symlink/lmr50410.pdf
+$ENDCMP
+#
+$CMP LMR50410-Q1
+D SIMPLE SWITCHER 4-V to 36-V, 1-A Buck Converter
+F https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf
+$ENDCMP
+#
 $CMP LSF0108
 D 8 Channel Auto-Bidirectional Multi-Voltage Level Translator for Open-Drain and Push-Pull Applications
 K Noninverting Bidirectional
@@ -769,6 +802,12 @@ K ARM Cortex-M0+ STM32G0 STM32G0x1
 F https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf
 $ENDCMP
 #
+$CMP STM32G0xxFx
+D ARM Cortex-M0+ MCU, up to 64KB flash, 18KB RAM, 64MHz, 2.0-3.6V, 17 GPIO, TSSOP20
+K ARM Cortex-M0+ STM32G0
+F https://www.st.com/resource/en/datasheet/stm32g030f6.pdf
+$ENDCMP
+#
 $CMP STM32G0xxKx
 D ARM Cortex-M0+ MCU, up to 128KB flash, 36KB RAM, 64MHz, 2.4-3.6V, 29 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32G0
@@ -938,6 +977,11 @@ $ENDCMP
 #
 $CMP TPS560430YF
 D 4-V to 36-V 600-mA Synchronous Step-Down Converter Fixed 2.1-MHz, Vout Adjustable
+$ENDCMP
+#
+$CMP TPS61094
+D 60-nA Quiescent Current Bi-directional Buck/Boost Converter with Bypass Mode
+F https://www.ti.com/lit/ds/symlink/tps61094.pdf
 $ENDCMP
 #
 $CMP TPS61196-Q1

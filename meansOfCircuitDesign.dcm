@@ -15,6 +15,18 @@ D Miniature 2.45GHz Impedance Matched Front-End Filter Optimized for Semtech SX1
 F https://www.johansontechnology.com/datasheets/2450FM07D0034/2450FM07D0034.pdf
 $ENDCMP
 #
+$CMP ADP3110AKCPZ-RL
+D Dual Boostrapped 12-V MOSFET Driver w/ Output Disable and Adaptive Deadtime Control
+K gate driver deadtime half-bridge lcsc
+F https://datasheet.lcsc.com/lcsc/1810010214_ON-Semiconductor-ADP3110AKCPZ-RL_C109351.pdf
+$ENDCMP
+#
+$CMP ADP3110AKCRZ-RL
+D Dual Boostrapped 12-V MOSFET Driver w/ Output Disable and Adaptive Deadtime Control SOIC-8
+K gate driver deadtime half-bridge lcsc
+F https://datasheet.lcsc.com/lcsc/1810010214_ON-Semiconductor-ADP3110AKCPZ-RL_C109351.pdf
+$ENDCMP
+#
 $CMP ADR34xx
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
@@ -207,6 +219,10 @@ $CMP EMI_Filter_LL12_43
 D EMI 2-inductor filter
 K EMI filter
 F ~
+$ENDCMP
+#
+$CMP FAHAMB1
+D Fully Automated Home Automation Mainboard V1 Interface
 $ENDCMP
 #
 $CMP FAN7390
