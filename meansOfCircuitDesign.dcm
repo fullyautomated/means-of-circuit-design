@@ -258,6 +258,18 @@ K current sense amplifier
 F http://www.ti.com/lit/ds/symlink/ina190-q1.pdf
 $ENDCMP
 #
+$CMP INA229
+D High-Side or Low-Side Measurement, Bi-Directional Precision Current and Power Monitor (0-85V) with SPI Compatible Interface, VSSOP-10
+K ADC I2C 20-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina229.pdf
+$ENDCMP
+#
+$CMP INA233
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F https://www.ti.com/lit/ds/symlink/ina233.pdf
+$ENDCMP
+#
 $CMP INA240A1D
 D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8
 K current monitor shunt sensor bidirectional high low
