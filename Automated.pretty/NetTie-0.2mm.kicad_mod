@@ -1,18 +1,94 @@
-(module NetTie-0.2mm (layer F.Cu) (tedit 5BD4A48D)
-  (zone_connect 2)
-  (attr virtual)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value NetTie-0.2mm (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd custom (at 0 0) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 2)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_line (start 0 0) (end 0.5 0) (width 0.2))
-    ))
-  (pad 2 smd rect (at 0.5 0) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 2))
+(footprint "NetTie-0.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 0.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "11a8243a-84b4-4dfd-b680-bc8674e21055")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie-0.2mm"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e202d6b1-1f5e-4bfc-8e6a-c9094014c847")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6696497-c3a0-4fad-8fe8-55550e1d3af7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0230386d-c98d-47a1-8fdf-f31c68b5dda7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c947581-6cfe-4750-8ff3-ecc068f35451")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0.5 -0.000185)
+		(end 0 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "da071dbb-16f1-441c-a052-e5cb97f7f594")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(clearance 0.001)
+		(zone_connect 2)
+		(uuid "ec04b4c7-ff5a-4675-8935-e771cc410553")
+	)
+	(pad "2" smd rect
+		(at 0.5 -0.000185)
+		(size 0.2 0.19963)
+		(layers "F.Cu")
+		(clearance 0.001)
+		(zone_connect 2)
+		(uuid "bf787a41-dc6b-4270-895e-fa7739efbdc5")
+	)
 )
