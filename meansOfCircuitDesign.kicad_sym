@@ -1345,6 +1345,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -13.97 20.32 0)
+				(length 2.54)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -13.97 15.24 0)
 				(length 2.54)
@@ -1580,7 +1598,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -30.48 90)
+				(at -1.27 -30.48 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1598,7 +1616,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -30.48 90)
+				(at -1.27 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1617,7 +1635,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -30.48 90)
+				(at -1.27 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "EP"
@@ -1636,7 +1654,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -30.48 90)
+				(at 1.27 -30.48 90)
 				(length 2.54)
 				(name "IOGND"
 					(effects
@@ -1646,24 +1664,6 @@
 					)
 				)
 				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -30.48 90)
-				(length 2.54)
-				(name "IOVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
