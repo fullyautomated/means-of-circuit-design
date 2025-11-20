@@ -1,0 +1,230 @@
+(footprint "SOP-4_4.4x3.9mm_P2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOP, 4 Pin Small Outline SMT https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586179899380285440")
+	(tags "SOP-4 SO cosmo KAQY214")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "e33bce22-39a5-4b54-bafd-e98036469699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-4_4.4x3.9mm_P2.54mm"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "f30fedc2-c7a5-4cbb-b6c9-83f8b9203f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "509c4590-ed00-40fb-bc8f-8af63fdad062")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdeb975e-2178-47fb-97d5-c90fd6c7f261")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.86 1.85)
+		(end -3.86 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8534bacb-fe58-4787-9b71-55abed6ee229")
+	)
+	(fp_line
+		(start -2.23 -2.05)
+		(end 3.88 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d29bad49-4972-4f18-9a0c-993bb1080769")
+	)
+	(fp_line
+		(start -2.23 -1.695)
+		(end -2.23 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "207c73e2-396e-4593-9bf5-6d5ce92c8760")
+	)
+	(fp_line
+		(start 3.86 1.85)
+		(end 3.86 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85425ef3-f15f-4c98-9d9e-af09ce96c528")
+	)
+	(fp_line
+		(start 3.86 2.05)
+		(end -3.86 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d4d5c0c-59fb-417c-9aef-e80cee422ca9")
+	)
+	(fp_line
+		(start 3.88 -2.05)
+		(end 3.88 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22ef2c84-5983-4f5a-adca-9034bb041f8e")
+	)
+	(fp_poly
+		(pts
+			(xy -3.238874 -1.88) (xy -3.578874 -2.35) (xy -2.898874 -2.35)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "24661925-47d2-4647-971b-c8f5accfac40")
+	)
+	(fp_line
+		(start -4 -2.2)
+		(end 4 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3d0648a-39c5-446d-a989-8eb8e81d303b")
+	)
+	(fp_line
+		(start -4 2.2)
+		(end -4 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3abded50-5438-42d4-a2c7-1f76dc2b7d0d")
+	)
+	(fp_line
+		(start 4 -2.2)
+		(end 4 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75eb113f-c300-4b1d-af82-6ffa38d835d2")
+	)
+	(fp_line
+		(start 4 2.2)
+		(end -4 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6c47231-9b75-4b50-89e8-618637342fe2")
+	)
+	(fp_poly
+		(pts
+			(xy -2.25 -1.15) (xy -2.25 1.95) (xy 2.25 1.95) (xy 2.25 -1.95) (xy -1.15 -1.95)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dff981f9-0b3f-43ed-9424-a43ddc6e592d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2aed34aa-c0bb-4457-bd97-a2127e74a75b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.25 -1.27)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07)
+		(uuid "edf3a0d4-6d2f-4d9c-bbe0-2baf587cc494")
+	)
+	(pad "2" smd roundrect
+		(at -3.25 1.27)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07)
+		(uuid "7b9c18d9-e97d-4dee-a162-7e062dac079f")
+	)
+	(pad "3" smd roundrect
+		(at 3.25 1.27 180)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07)
+		(uuid "0be91841-08ea-416e-b0af-86a1e1aaf0b0")
+	)
+	(pad "4" smd roundrect
+		(at 3.25 -1.27 180)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07)
+		(uuid "f631b034-8831-40fa-929f-c169d40a9b09")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOP-4_7.5x4.1mm_P2.54mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

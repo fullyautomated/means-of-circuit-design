@@ -1,0 +1,203 @@
+(footprint "L_Changjiang_FEXL0550A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Changjiang, FNR5045S, 5.0x5.0x4.5mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "wirewound power shielded")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "510826fe-91c2-4726-b93e-3ab807fcf3e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Changjiang_FEXL0550A"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(uuid "80128074-f3f6-4f49-aff8-7d12b696cd0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "962caa7b-9d24-40f0-8ea7-02ca05238016")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74dcb462-f7df-4b1f-b221-6f16b58fd746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.8 -2.9)
+		(end 2.8 -2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2708f9f-0080-49b1-9b79-6a2064a1ca2a")
+	)
+	(fp_line
+		(start -2.8 -2.65)
+		(end -2.8 -2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eaac4f1d-711f-4826-8b88-03efde3834eb")
+	)
+	(fp_line
+		(start -2.8 2.9)
+		(end -2.8 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc0bed16-cc7e-46e4-9754-910b5e6ec19e")
+	)
+	(fp_line
+		(start 2.8 -2.9)
+		(end 2.8 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7ca6225-f5bd-4d3d-8e06-6feaa8cdeb3c")
+	)
+	(fp_line
+		(start 2.8 2.65)
+		(end 2.8 2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85c99bb0-cf8c-41dd-806e-0a6287bc50d8")
+	)
+	(fp_line
+		(start 2.8 2.9)
+		(end -2.8 2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f4d51be-e76e-4a6a-a2c0-f5581bb7bb68")
+	)
+	(fp_line
+		(start -2.9 -3)
+		(end 2.9 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "348116ea-f9b2-4049-ace3-34afe2e1b26c")
+	)
+	(fp_line
+		(start -2.9 3)
+		(end -2.9 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfbc2b1f-f49d-442a-bf2b-b3619e7b5cb9")
+	)
+	(fp_line
+		(start 2.9 -3)
+		(end 2.9 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8935e563-c3a2-4fb7-b7f4-e8a8b5439818")
+	)
+	(fp_line
+		(start 2.9 3)
+		(end -2.9 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a60da54-b265-45e2-a646-672b5f4327e4")
+	)
+	(fp_rect
+		(start -2.65 -2.75)
+		(end 2.65 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "448d4af9-6f85-4224-9ff5-85780e84cd3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6d2cd654-2c96-475a-aca8-40e16dcd2022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.625 0)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "149dd1d0-2c23-4be2-884b-5e202c4d0e24")
+	)
+	(pad "2" smd roundrect
+		(at 1.625 0)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "dcac7f87-3cdc-4480-b8aa-17ae49298df2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR5045S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
