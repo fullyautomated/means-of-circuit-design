@@ -51301,7 +51301,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 34.798 0)
+			(at 0 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51309,7 +51309,7 @@
 			)
 		)
 		(property "Value" "MSPM0G350xPT"
-			(at 0 33.02 0)
+			(at 0 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51334,7 +51334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MSPM0G350xPT Mixed-Signal Microcontroller With CAN-FD Interface, LQFP-48"
 			(at 0 33.02 0)
 			(effects
 				(font
@@ -51346,7 +51346,7 @@
 		(symbol "MSPM0G350xPT_1_1"
 			(rectangle
 				(start -10.16 33.02)
-				(end 10.16 -40.64)
+				(end 10.16 -45.72)
 				(stroke
 					(width 0)
 					(type default)
@@ -51628,42 +51628,6 @@
 			(pin bidirectional line
 				(at -12.7 -12.7 0)
 				(length 2.54)
-				(name "PA21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -15.24 0)
-				(length 2.54)
-				(name "PA22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -17.78 0)
-				(length 2.54)
 				(name "PB20"
 					(effects
 						(font
@@ -51680,7 +51644,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -20.32 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "PB24"
 					(effects
@@ -51698,7 +51662,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -43.18 90)
+				(at 0 -48.26 90)
 				(length 2.54)
 				(name "V_{SS}"
 					(effects
@@ -51754,7 +51718,7 @@
 			(pin bidirectional line
 				(at 12.7 25.4 180)
 				(length 2.54)
-				(name "PA2"
+				(name "PA2/ROSC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52060,7 +52024,7 @@
 			(pin bidirectional line
 				(at 12.7 -17.78 180)
 				(length 2.54)
-				(name "PA19"
+				(name "PA19/SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52078,7 +52042,7 @@
 			(pin bidirectional line
 				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name "PA20"
+				(name "PA20/SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52096,6 +52060,42 @@
 			(pin bidirectional line
 				(at 12.7 -22.86 180)
 				(length 2.54)
+				(name "PA21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -25.4 180)
+				(length 2.54)
+				(name "PA22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -27.94 180)
+				(length 2.54)
 				(name "PA23"
 					(effects
 						(font
@@ -52112,7 +52112,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -25.4 180)
+				(at 12.7 -30.48 180)
 				(length 2.54)
 				(name "PA24"
 					(effects
@@ -52130,7 +52130,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -27.94 180)
+				(at 12.7 -33.02 180)
 				(length 2.54)
 				(name "PA25"
 					(effects
@@ -52148,7 +52148,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -30.48 180)
+				(at 12.7 -35.56 180)
 				(length 2.54)
 				(name "PA26"
 					(effects
@@ -52166,7 +52166,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -33.02 180)
+				(at 12.7 -38.1 180)
 				(length 2.54)
 				(name "PA27"
 					(effects
@@ -52184,7 +52184,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -35.56 180)
+				(at 12.7 -40.64 180)
 				(length 2.54)
 				(name "PA28"
 					(effects
@@ -52202,7 +52202,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -38.1 180)
+				(at 12.7 -43.18 180)
 				(length 2.54)
 				(name "PA31"
 					(effects
@@ -57790,26 +57790,8 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "SHDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 -5.08 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -57819,6 +57801,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "SHDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
