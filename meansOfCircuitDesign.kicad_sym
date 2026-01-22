@@ -55139,25 +55139,6 @@
 						)
 					)
 				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -66.04 90)
-				(length 2.54)
-				(hide yes)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "64"
 					(effects
 						(font
@@ -55289,6 +55270,25 @@
 					)
 				)
 				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
