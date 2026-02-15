@@ -1,0 +1,184 @@
+(footprint "L_KOHERelec_4020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, KOHERelec, 4020 size, 4.1x4.45x1.8mm")
+	(tags "wirewound power shielded")
+	(property "Reference" "REF**"
+		(at 0 -3.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03b3ce5d-d6d5-4eb7-abc9-487c5bfc5cd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_KOHERelec_4020"
+		(at -0.05 3.1 0)
+		(layer "F.Fab")
+		(uuid "e0943ed7-9798-4104-a50c-5c94b97d5c82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b21dc4f-7ee2-42e4-aa23-b8524462606a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0af388ab-a392-40d5-835b-9deef561707f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.11 -2.11)
+		(end 2.11 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c40ccea-5833-4e69-b284-468291602388")
+	)
+	(fp_line
+		(start 2.11 2.11)
+		(end -2.11 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6881cb49-a563-4a2e-8775-3dd9748a0ead")
+	)
+	(fp_line
+		(start -2.35 -2.15)
+		(end 2.35 -2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba2d8413-0cf8-414c-a216-15756427db71")
+	)
+	(fp_line
+		(start -2.35 2.15)
+		(end -2.35 -2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16c199ea-9a51-46b7-bc25-8a231fb72883")
+	)
+	(fp_line
+		(start 2.35 -2.15)
+		(end 2.35 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "340dd90b-089f-4248-98f9-8dc446fc53e0")
+	)
+	(fp_line
+		(start 2.35 -2.15)
+		(end 2.35 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54ebe61e-7ca5-48b9-9e62-f359f93d9e18")
+	)
+	(fp_line
+		(start 2.35 2.15)
+		(end -2.35 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e9714ce-a5b5-4819-877c-933016bbddf7")
+	)
+	(fp_line
+		(start 2.35 2.15)
+		(end -2.35 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dd28ba3-16c0-47e5-9aa5-9906be809c19")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "67f71698-4f76-47aa-b04d-671391d30f0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1ca64bb7-2366-43a6-9f70-d82976d321ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.85 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "f3bb4d74-7a43-4328-a502-542109e306aa")
+	)
+	(pad "2" smd roundrect
+		(at 1.85 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "dc3b288c-c0ee-4e03-924e-554d80407d56")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR4020S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
