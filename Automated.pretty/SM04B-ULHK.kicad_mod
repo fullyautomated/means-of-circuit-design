@@ -1,0 +1,204 @@
+(footprint "SM04B-ULHK"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e691eb3d-8f7b-47db-a129-6ba3b14d3b90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SM04B-ULHK-1GFA1-ETB(HF)"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03dcbee8-e745-4060-82ad-cd79b3545421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eULH.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31da1f0a-cbb1-4f29-8dee-e8a32ab20474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "JST ULH connector, 2mm pitch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a98721f-d758-442f-aa06-a1bcfc79b4c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.2 -3.5)
+		(end -4.1 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c1aea9e-e7d5-4eaa-a31d-6a5285296751")
+	)
+	(fp_line
+		(start -5.2 3.8)
+		(end -5.2 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "234850b8-0515-4256-8364-d75b9d2c2c85")
+	)
+	(fp_line
+		(start -5.2 3.8)
+		(end 5.1 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79582aa2-60cb-48bc-87c4-04078b41299b")
+	)
+	(fp_line
+		(start -4.1 -5.3)
+		(end 3.9 -5.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cbc3367-21e4-44b2-9242-0965825653bb")
+	)
+	(fp_line
+		(start -4.1 -3.5)
+		(end -4.1 -5.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e61c746-282f-409c-9735-2131b449e5af")
+	)
+	(fp_line
+		(start 3.9 -3.5)
+		(end 3.9 -5.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "daac87e5-a621-41ed-825b-a615347f574a")
+	)
+	(fp_line
+		(start 5.1 -3.5)
+		(end 3.9 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "58804019-e0e8-4e34-8534-5252b7ad4574")
+	)
+	(fp_line
+		(start 5.1 3.8)
+		(end 5.1 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1924263-fb77-4aa0-9dec-8bc78b91bf2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0010980a-6e37-447b-bc6e-ccc0302b33d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3 -4.2)
+		(size 0.55 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c6dea1e2-c66e-4b17-9d40-75a714602500")
+	)
+	(pad "2" smd roundrect
+		(at -1 -4.2)
+		(size 0.55 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "25640672-ee94-464c-b8ec-70414eedae99")
+	)
+	(pad "3" smd roundrect
+		(at 1 -4.2)
+		(size 0.55 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5c09f762-63b4-498f-9090-b5a8d503ad71")
+	)
+	(pad "4" smd roundrect
+		(at 3 -4.2)
+		(size 0.55 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5618ff0f-dc45-4747-8771-8e30cbcced1f")
+	)
+	(pad "MP" smd roundrect
+		(at -4.54 0)
+		(size 1.05 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ecda1ecf-eb79-4f34-8b73-7d8ef7b8028d")
+	)
+	(pad "MP" smd roundrect
+		(at 4.36 0)
+		(size 1.05 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c14448ac-456d-45d8-be95-3fd85ba193c1")
+	)
+	(embedded_fonts no)
+	(model "${AUTOMATED}/JST/SM04B-ULHK-1GFA1-ETB(HF).STEP"
+		(offset
+			(xyz -0.1 4.5 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
