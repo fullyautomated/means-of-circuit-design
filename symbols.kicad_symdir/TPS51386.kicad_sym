@@ -94,7 +94,7 @@
 			(pin passive line
 				(at 0 -11.43 90)
 				(length 2.54)
-				(name "GND"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "V_{CC}"
@@ -236,11 +236,11 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(hide yes)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)

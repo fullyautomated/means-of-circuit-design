@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "../references/datasheets/ltc6811.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf"
 			(at 3.81 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -90,7 +90,7 @@
 			)
 		)
 		(symbol "LTC6811-1_1_1"
-			(pin input line
+			(pin power_in line
 				(at -19.05 29.21 0)
 				(length 7.62)
 				(name "V+"
@@ -612,7 +612,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 19.05 -16.51 180)
 				(length 7.62)
 				(name "V-"
@@ -630,7 +630,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 19.05 -13.97 180)
 				(length 7.62)
 				(name "V-"
@@ -756,7 +756,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 19.05 3.81 180)
 				(length 7.62)
 				(name "DRIVE"
@@ -774,7 +774,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin open_collector line
 				(at 19.05 6.35 180)
 				(length 7.62)
 				(name "WDT"
@@ -864,7 +864,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin open_collector line
 				(at 19.05 19.05 180)
 				(length 7.62)
 				(name "SDO"

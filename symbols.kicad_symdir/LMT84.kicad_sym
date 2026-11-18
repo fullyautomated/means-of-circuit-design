@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmt84.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -129,7 +129,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 11.43 -2.54 180)
 				(length 5.08)
 				(name "VDD"

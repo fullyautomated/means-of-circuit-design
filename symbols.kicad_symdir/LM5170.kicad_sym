@@ -117,7 +117,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 6.35 17.78 270)
 				(length 2.54)
 				(name "VINX"
@@ -154,7 +154,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 17.78 270)
 				(length 2.54)
 				(name "VIN"
@@ -282,7 +282,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 17.78 270)
 				(length 2.54)
 				(name "VCC"
@@ -391,7 +391,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 2.54 17.78 270)
 				(length 2.54)
 				(name "VCCA"

@@ -180,10 +180,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 10.16 -7.62 180)
 				(length 2.54)
-				(name "Vss"
+				(name "VS"
 					(effects
 						(font
 							(size 1.27 1.27)

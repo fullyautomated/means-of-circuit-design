@@ -250,7 +250,7 @@
 			(pin power_out line
 				(at 11.43 -3.81 180)
 				(length 2.54)
-				(name "LED1"
+				(name "LED3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -286,7 +286,7 @@
 			(pin power_out line
 				(at 11.43 -8.89 180)
 				(length 2.54)
-				(name "LED3"
+				(name "LED1"
 					(effects
 						(font
 							(size 1.27 1.27)

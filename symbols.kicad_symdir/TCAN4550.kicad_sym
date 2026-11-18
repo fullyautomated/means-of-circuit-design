@@ -113,10 +113,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -12.7 6.35 0)
 				(length 2.54)
-				(name "GPIO1"
+				(name "GPO1"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -622,7 +622,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 40.64 270)
 				(length 2.54)
 				(name "V_{CC}"
@@ -640,7 +640,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 40.64 270)
 				(length 2.54)
 				(name "V_{DD}"
@@ -1019,7 +1019,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 17.78 30.48 180)
 				(length 2.54)
 				(name "VCP"
@@ -1037,7 +1037,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 17.78 33.02 180)
 				(length 2.54)
 				(name "VBAT2"
@@ -1055,7 +1055,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 17.78 35.56 180)
 				(length 2.54)
 				(name "VBAT1"

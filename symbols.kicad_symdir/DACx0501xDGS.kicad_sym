@@ -75,7 +75,7 @@
 			)
 		)
 		(symbol "DACx0501xDGS_1_1"
-			(pin input line
+			(pin power_in line
 				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VDD"
@@ -169,7 +169,7 @@
 			(pin input line
 				(at -11.43 0 0)
 				(length 2.54)
-				(name "CLK"
+				(name "SCLK/SCL"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -164,7 +164,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -20.32 -22.86 0)
 				(length 3.81)
 				(name "ALARM"
@@ -859,10 +859,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 20.32 -20.32 180)
 				(length 3.81)
-				(name "VDD_18"
+				(name "VDD_1.8V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -895,7 +895,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 20.32 -25.4 180)
 				(length 3.81)
 				(name "VLDO"
@@ -917,7 +917,7 @@
 				(at 20.32 -20.32 180)
 				(length 3.81)
 				(hide yes)
-				(name "VDD_18"
+				(name "VDD_1.8V"
 					(effects
 						(font
 							(size 1.27 1.27)

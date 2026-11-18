@@ -240,7 +240,7 @@
 			(pin power_in line
 				(at -11.43 -15.24 0)
 				(length 2.54)
-				(name "VDD_0"
+				(name "VDDO_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -294,7 +294,7 @@
 			(pin power_in line
 				(at -11.43 -17.78 0)
 				(length 2.54)
-				(name "VDD_1"
+				(name "VDDO_1"
 					(effects
 						(font
 							(size 1.27 1.27)

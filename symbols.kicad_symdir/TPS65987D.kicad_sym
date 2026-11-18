@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -39.37 12.7 0)
 				(length 5.08)
 				(name "VIN_3V3"
@@ -273,7 +273,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -39.37 -2.54 0)
 				(length 5.08)
 				(name "LDO_3V3"
@@ -525,7 +525,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -39.37 -12.7 0)
 				(length 5.08)
 				(name "PP_CABLE"
@@ -705,7 +705,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -39.37 -5.08 0)
 				(length 5.08)
 				(name "LDO_1V8"

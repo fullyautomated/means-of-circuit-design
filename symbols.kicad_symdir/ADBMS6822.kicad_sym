@@ -173,7 +173,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 13.97 270)
 				(length 2.54)
 				(name "VDDS"
@@ -424,7 +424,7 @@
 			(pin bidirectional line
 				(at 11.43 6.35 180)
 				(length 2.54)
-				(name "IM"
+				(name "IM2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -442,7 +442,7 @@
 			(pin bidirectional line
 				(at 11.43 8.89 180)
 				(length 2.54)
-				(name "IP"
+				(name "IP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -460,7 +460,7 @@
 			(pin power_in line
 				(at 0 13.97 270)
 				(length 2.54)
-				(name "VDD"
+				(name "VDD2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -478,7 +478,7 @@
 			(pin power_in line
 				(at 2.54 13.97 270)
 				(length 2.54)
-				(name "VP"
+				(name "VP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -496,7 +496,7 @@
 			(pin input line
 				(at 11.43 1.27 180)
 				(length 2.54)
-				(name "PHAPOL"
+				(name "PHAPOL2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -514,7 +514,7 @@
 			(pin input line
 				(at 11.43 -1.27 180)
 				(length 2.54)
-				(name "RTO"
+				(name "RTO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -532,7 +532,7 @@
 			(pin input line
 				(at 11.43 -3.81 180)
 				(length 2.54)
-				(name "XCVRMD"
+				(name "XCVRMD2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,7 +550,7 @@
 			(pin input line
 				(at -11.43 -8.89 0)
 				(length 2.54)
-				(name "MSTR"
+				(name "MSTR2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -568,7 +568,7 @@
 			(pin bidirectional line
 				(at -11.43 8.89 0)
 				(length 2.54)
-				(name "PICO"
+				(name "PICO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -586,7 +586,7 @@
 			(pin bidirectional line
 				(at -11.43 6.35 0)
 				(length 2.54)
-				(name "POCI"
+				(name "POCI2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -604,7 +604,7 @@
 			(pin bidirectional line
 				(at -11.43 3.81 0)
 				(length 2.54)
-				(name "SCK"
+				(name "SCK2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -622,7 +622,7 @@
 			(pin bidirectional line
 				(at -11.43 1.27 0)
 				(length 2.54)
-				(name "~{CS}"
+				(name "~{CS2}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,10 +637,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 13.97 270)
 				(length 2.54)
-				(name "VDDS"
+				(name "VDDS2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -658,7 +658,7 @@
 			(pin output line
 				(at -11.43 -3.81 0)
 				(length 2.54)
-				(name "INTR"
+				(name "INTR2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -676,7 +676,7 @@
 			(pin bidirectional line
 				(at -11.43 -6.35 0)
 				(length 2.54)
-				(name "WAKE"
+				(name "WAKE2"
 					(effects
 						(font
 							(size 1.27 1.27)

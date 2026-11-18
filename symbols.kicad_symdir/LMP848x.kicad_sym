@@ -107,7 +107,7 @@
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "+"
+				(name "RSP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -125,7 +125,7 @@
 			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
-				(name "V+"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -162,7 +162,7 @@
 			(pin power_in line
 				(at -2.54 -7.62 90)
 				(length 3.81)
-				(name "V-"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -180,7 +180,7 @@
 			(pin output line
 				(at 7.62 0 180)
 				(length 2.54)
-				(name ""
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -198,7 +198,7 @@
 			(pin input line
 				(at 0 -7.62 90)
 				(length 5.08)
-				(name "B"
+				(name "REFB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -216,7 +216,7 @@
 			(pin input line
 				(at 2.54 -7.62 90)
 				(length 6.35)
-				(name "A"
+				(name "REFA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -234,7 +234,7 @@
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "-"
+				(name "RSN"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -40,7 +40,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.silergy.com/zh/download/downloadFile?id=4226&type=product&ftype=note"
+		(property "Datasheet" "https://www.silergy.com/download/downloadFile?id=4226&type=product&ftype=note"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -103,7 +103,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(hide yes)
@@ -214,7 +214,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 0 11.43 270)
 				(length 2.54)
 				(name "BS"

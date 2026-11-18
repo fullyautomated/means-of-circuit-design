@@ -107,7 +107,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VIN"
@@ -383,10 +383,10 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -15.24 90)
+				(at -1.27 -15.24 90)
 				(length 2.54)
 				(hide yes)
-				(name "PGND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)

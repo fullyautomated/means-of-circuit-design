@@ -249,7 +249,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -365,7 +365,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 2.54 -19.05 90)
 				(length 2.54)
 				(name "NC"
@@ -375,7 +375,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)

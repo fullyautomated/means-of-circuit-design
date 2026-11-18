@@ -636,7 +636,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -21.59 -6.35 0)
 				(length 2.54)
 				(name "VAC"
@@ -654,7 +654,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -21.59 -6.35 0)
 				(length 2.54)
 				(hide yes)

@@ -40,7 +40,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "/home/zoe/projects/dcusv/bq76930.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq76930.pdf"
 			(at 7.62 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +87,7 @@
 			)
 		)
 		(symbol "bq76930_1_1"
-			(pin unspecified line
+			(pin output line
 				(at -12.7 19.05 0)
 				(length 5.08)
 				(name "DSG"
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -12.7 16.51 0)
 				(length 5.08)
 				(name "CHG"
@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -12.7 6.35 0)
 				(length 5.08)
 				(name "TS1"
@@ -231,7 +231,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -12.7 -1.27 0)
 				(length 5.08)
 				(name "REGSRC"
@@ -249,10 +249,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -12.7 -3.81 0)
 				(length 5.08)
-				(name "VCSx"
+				(name "VC5X"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -12.7 -11.43 0)
 				(length 5.08)
 				(name "TS2"
@@ -339,7 +339,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -12.7 -16.51 0)
 				(length 5.08)
 				(name "BAT"
@@ -357,7 +357,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -16.51 180)
 				(length 5.08)
 				(name "VC10"
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -13.97 180)
 				(length 5.08)
 				(name "VC9"
@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -11.43 180)
 				(length 5.08)
 				(name "VC8"
@@ -411,7 +411,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -8.89 180)
 				(length 5.08)
 				(name "VC7"
@@ -429,7 +429,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -6.35 180)
 				(length 5.08)
 				(name "VC6"
@@ -447,7 +447,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -3.81 180)
 				(length 5.08)
 				(name "VC5B"
@@ -465,7 +465,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -1.27 180)
 				(length 5.08)
 				(name "VC5"
@@ -483,7 +483,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 1.27 180)
 				(length 5.08)
 				(name "VC4"
@@ -501,7 +501,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 3.81 180)
 				(length 5.08)
 				(name "VC3"
@@ -519,7 +519,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 6.35 180)
 				(length 5.08)
 				(name "VC2"
@@ -537,7 +537,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 8.89 180)
 				(length 5.08)
 				(name "VC1"
@@ -555,7 +555,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 11.43 180)
 				(length 5.08)
 				(name "VC0"
@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 13.97 180)
 				(length 5.08)
 				(name "SRP"
@@ -591,7 +591,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 16.51 180)
 				(length 5.08)
 				(name "SRN"
@@ -609,7 +609,7 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin bidirectional line
 				(at 12.7 19.05 180)
 				(length 5.08)
 				(name "ALERT"

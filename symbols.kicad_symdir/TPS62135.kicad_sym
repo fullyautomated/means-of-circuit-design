@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -11.43 -2.54 0)
 				(length 3.81)
 				(name "VSEL"

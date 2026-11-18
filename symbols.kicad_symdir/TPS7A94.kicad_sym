@@ -137,7 +137,7 @@
 			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "EN"
+				(name "EN_UV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -173,7 +173,7 @@
 			(pin input line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "FB"
+				(name "FB_PG"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -220,7 +220,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -239,7 +239,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -277,7 +277,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -580,7 +580,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -599,7 +599,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -618,7 +618,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(hide yes)
@@ -1220,7 +1220,7 @@
 				)
 				(alternate "GR_PCLK0_1" bidirectional line)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 40.64 270)
 				(length 5.08)
 				(hide yes)
@@ -1852,7 +1852,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 50.8 270)
 				(length 5.08)
 				(hide yes)
@@ -2355,7 +2355,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 50.8 270)
 				(length 5.08)
 				(hide yes)
@@ -2591,7 +2591,7 @@
 				)
 				(alternate "GR_PCLK3_0" bidirectional line)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 50.8 270)
 				(length 5.08)
 				(hide yes)
@@ -3171,7 +3171,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 50.8 270)
 				(length 5.08)
 				(hide yes)
@@ -4240,7 +4240,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 50.8 270)
 				(length 5.08)
 				(hide yes)

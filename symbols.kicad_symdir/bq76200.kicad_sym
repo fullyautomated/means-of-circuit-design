@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/product/bq76200"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq76200.pdf"
 			(at -11.43 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -119,7 +119,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -15.24 6.35 0)
 				(length 5.08)
 				(name "BAT"
@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 15.24 -3.81 180)
 				(length 5.08)
 				(name "PACK"

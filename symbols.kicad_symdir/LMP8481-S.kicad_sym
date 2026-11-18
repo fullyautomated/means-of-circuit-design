@@ -38,7 +38,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmp8640.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmp8481.pdf"
 			(at 0 0.127 0)
 			(show_name no)
 			(do_not_autoplace no)

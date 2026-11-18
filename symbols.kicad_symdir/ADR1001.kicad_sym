@@ -381,7 +381,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -10.16 17.78 270)
 				(length 2.54)
 				(name "HTR_{IN}"
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -17.78 12.7 0)
 				(length 2.54)
 				(name "V_{IN}"

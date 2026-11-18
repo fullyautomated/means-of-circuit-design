@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS25751S"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -206,7 +206,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -11.43 -22.86 0)
 				(length 2.54)
 				(name "I2Ct_{SCL}"
@@ -624,7 +624,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -11.43 -71.12 0)
 				(length 2.54)
 				(name "VIN_{3V3}"

@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VCC"

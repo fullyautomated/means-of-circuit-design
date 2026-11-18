@@ -123,7 +123,7 @@
 			)
 		)
 		(symbol "SY7208CABC_1_0"
-			(pin free non_logic
+			(pin no_connect non_logic
 				(at 2.54 -7.62 90)
 				(length 2.54)
 				(name "NC"
@@ -161,7 +161,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"

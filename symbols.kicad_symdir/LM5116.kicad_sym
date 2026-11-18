@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/lm5166"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5116.pdf"
 			(at -6.35 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)

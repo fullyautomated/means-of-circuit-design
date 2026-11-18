@@ -162,10 +162,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -11.43 -3.81 0)
 				(length 3.81)
-				(name "VSS"
+				(name "VS"
 					(effects
 						(font
 							(size 1.27 1.27)

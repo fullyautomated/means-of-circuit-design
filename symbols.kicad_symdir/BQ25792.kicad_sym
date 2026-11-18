@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25792.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8929/BQ25792RQMR.pdf"
 			(at -10.16 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)

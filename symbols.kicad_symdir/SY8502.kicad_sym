@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "FB"

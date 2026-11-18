@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv7011.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

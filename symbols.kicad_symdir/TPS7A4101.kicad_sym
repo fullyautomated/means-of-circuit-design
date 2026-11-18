@@ -168,11 +168,11 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(hide yes)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)

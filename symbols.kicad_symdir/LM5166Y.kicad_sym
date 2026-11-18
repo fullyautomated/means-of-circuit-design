@@ -37,7 +37,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5166.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
